@@ -28,19 +28,16 @@ export default {
         globals: {
             "node-fetch": "node-fetch",
             "crypto": "crypto",
-            "mqtt": "mqtt",
             "big-integer": "big-integer"
         }
     },
     external: (process.env.BROWSER
         ? [
-            "mqtt",
             "big-integer"
         ]
         : [
             "crypto",
-            "node-fetch",
-            "mqtt"
+            "node-fetch"
         ]),
     plugins
 }

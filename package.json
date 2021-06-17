@@ -16,7 +16,6 @@
     "license": "Apache-2.0",
     "dependencies": {
         "big-integer": "^1.6.48",
-        "mqtt": "^4.2.4",
         "node-fetch": "^2.6.1"
     },
     "scripts": {
