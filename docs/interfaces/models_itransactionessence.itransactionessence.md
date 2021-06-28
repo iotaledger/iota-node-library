@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/ITransactionEssence](../modules/models_itransactionessence.md) / ITransactionEssence
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITransactionEssence](../modules/models_itransactionessence.md) / ITransactionEssence
 
 # Interface: ITransactionEssence
 

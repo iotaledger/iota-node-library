@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/api/IMqttMilestoneResponse](../modules/models_api_imqttmilestoneresponse.md) / IMqttMilestoneResponse
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IMqttMilestoneResponse](../modules/models_api_imqttmilestoneresponse.md) / IMqttMilestoneResponse
 
 # Interface: IMqttMilestoneResponse
 

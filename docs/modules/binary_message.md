@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / binary/message
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/message
 
 # Module: binary/message
 

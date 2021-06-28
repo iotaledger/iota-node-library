@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/chaCha20](../modules/crypto_chacha20.md) / ChaCha20
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/chaCha20](../modules/crypto_chacha20.md) / ChaCha20
 
 # Class: ChaCha20
 

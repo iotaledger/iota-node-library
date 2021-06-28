@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [seedTypes/ed25519Seed](../modules/seedtypes_ed25519seed.md) / Ed25519Seed
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [seedTypes/ed25519Seed](../modules/seedtypes_ed25519seed.md) / Ed25519Seed
 
 # Class: Ed25519Seed
 

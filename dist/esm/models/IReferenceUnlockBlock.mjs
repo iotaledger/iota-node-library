@@ -1,0 +1,5 @@
+/**
+ * The global type for the unlock block.
+ */
+export const REFERENCE_UNLOCK_BLOCK_TYPE = 1;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSVJlZmVyZW5jZVVubG9ja0Jsb2NrLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL21vZGVscy9JUmVmZXJlbmNlVW5sb2NrQmxvY2sudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUE7O0dBRUc7QUFDSCxNQUFNLENBQUMsTUFBTSwyQkFBMkIsR0FBRyxDQUFDLENBQUMifQ==

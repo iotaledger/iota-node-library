@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/getBalance
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/getBalance
 
 # Module: highLevel/getBalance
 

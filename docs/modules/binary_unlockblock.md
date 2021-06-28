@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / binary/unlockBlock
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/unlockBlock
 
 # Module: binary/unlockBlock
 

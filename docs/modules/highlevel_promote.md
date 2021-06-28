@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/promote
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/promote
 
 # Module: highLevel/promote
 

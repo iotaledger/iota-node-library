@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IUTXOInput](../modules/models_iutxoinput.md) / IUTXOInput
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IUTXOInput](../modules/models_iutxoinput.md) / IUTXOInput
 
 # Interface: IUTXOInput
 

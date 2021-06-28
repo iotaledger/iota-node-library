@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IReferenceUnlockBlock](../modules/models_ireferenceunlockblock.md) / IReferenceUnlockBlock
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IReferenceUnlockBlock](../modules/models_ireferenceunlockblock.md) / IReferenceUnlockBlock
 
 # Interface: IReferenceUnlockBlock
 

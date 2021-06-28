@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/hmacSha256](../modules/crypto_hmacsha256.md) / HmacSha256
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/hmacSha256](../modules/crypto_hmacsha256.md) / HmacSha256
 
 # Class: HmacSha256
 

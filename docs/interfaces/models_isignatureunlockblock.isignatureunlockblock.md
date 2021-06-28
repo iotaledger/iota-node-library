@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/ISignatureUnlockBlock](../modules/models_isignatureunlockblock.md) / ISignatureUnlockBlock
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ISignatureUnlockBlock](../modules/models_isignatureunlockblock.md) / ISignatureUnlockBlock
 
 # Interface: ISignatureUnlockBlock
 

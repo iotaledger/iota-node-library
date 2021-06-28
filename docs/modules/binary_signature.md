@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / binary/signature
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/signature
 
 # Module: binary/signature
 

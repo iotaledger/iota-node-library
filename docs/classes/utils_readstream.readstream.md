@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/readStream](../modules/utils_readstream.md) / ReadStream
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/readStream](../modules/utils_readstream.md) / ReadStream
 
 # Class: ReadStream
 

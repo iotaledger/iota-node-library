@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/reattach
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/reattach
 
 # Module: highLevel/reattach
 

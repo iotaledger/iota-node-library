@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/edwards25519/fieldElement](../modules/crypto_edwards25519_fieldelement.md) / FieldElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/fieldElement](../modules/crypto_edwards25519_fieldelement.md) / FieldElement
 
 # Class: FieldElement
 

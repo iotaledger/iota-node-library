@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/INodeInfo
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/INodeInfo
 
 # Module: models/INodeInfo
 

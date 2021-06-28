@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/IBip44GeneratorState
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IBip44GeneratorState
 
 # Module: models/IBip44GeneratorState
 

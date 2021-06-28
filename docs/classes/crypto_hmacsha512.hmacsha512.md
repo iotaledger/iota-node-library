@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/hmacSha512](../modules/crypto_hmacsha512.md) / HmacSha512
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/hmacSha512](../modules/crypto_hmacsha512.md) / HmacSha512
 
 # Class: HmacSha512
 

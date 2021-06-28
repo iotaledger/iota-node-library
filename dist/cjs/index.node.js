@@ -11,10 +11,30 @@
     // Copyright 2020 IOTA Stiftung
     // SPDX-License-Identifier: Apache-2.0
     // Fetch
-    if (!globalThis.fetch) {
+    if (globalThis && !globalThis.fetch) {
         // eslint-disable-next-line @typescript-eslint/no-require-imports
         globalThis.fetch = require$$0__default['default'];
     }
+
+    // Copyright 2020 IOTA Stiftung
+    // SPDX-License-Identifier: Apache-2.0
+    /**
+     * Class to help with random generation.
+     */
+    class RandomHelper {
+    }
+
+    // Copyright 2020 IOTA Stiftung
+    /**
+     * Generate a new random array.
+     * @param length The length of buffer to create.
+     * @returns The random array.
+     */
+    RandomHelper.generate = (length) => {
+        // eslint-disable-next-line @typescript-eslint/no-var-requires,@typescript-eslint/no-require-imports
+        const crypto = require("crypto");
+        return crypto.randomBytes(length);
+    };
 
     // Copyright 2020 IOTA Stiftung
     // SPDX-License-Identifier: Apache-2.0
@@ -1407,26 +1427,6 @@
         0x4CC5D4BE, 0xCB3E42B6, 0x597F299C, 0xFC657E2A,
         0x5FCB6FAB, 0x3AD6FAEC, 0x6C44198C, 0x4A475817
     ]);
-
-    // Copyright 2020 IOTA Stiftung
-    // SPDX-License-Identifier: Apache-2.0
-    /**
-     * Class to help with random generation.
-     */
-    class RandomHelper {
-        /**
-         * Generate a new random array.
-         * @param length The length of buffer to create.
-         * @returns The random array.
-         */
-        static generate(length) {
-            {
-                // eslint-disable-next-line @typescript-eslint/no-var-requires,@typescript-eslint/no-require-imports
-                const crypto = require("crypto");
-                return crypto.randomBytes(length);
-            }
-        }
-    }
 
     // Copyright 2020 IOTA Stiftung
     /**

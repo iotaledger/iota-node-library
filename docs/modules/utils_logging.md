@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / utils/logging
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/logging
 
 # Module: utils/logging
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / binary/funds
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/funds
 
 # Module: binary/funds
 

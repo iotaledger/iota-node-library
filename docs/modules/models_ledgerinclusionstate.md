@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/ledgerInclusionState
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ledgerInclusionState
 
 # Module: models/ledgerInclusionState
 

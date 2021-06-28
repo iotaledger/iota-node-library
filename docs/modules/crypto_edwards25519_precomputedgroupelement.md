@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / crypto/edwards25519/preComputedGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/edwards25519/preComputedGroupElement
 
 # Module: crypto/edwards25519/preComputedGroupElement
 

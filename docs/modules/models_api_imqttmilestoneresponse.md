@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/api/IMqttMilestoneResponse
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/api/IMqttMilestoneResponse
 
 # Module: models/api/IMqttMilestoneResponse
 

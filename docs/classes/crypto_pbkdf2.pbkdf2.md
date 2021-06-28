@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/pbkdf2](../modules/crypto_pbkdf2.md) / Pbkdf2
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/pbkdf2](../modules/crypto_pbkdf2.md) / Pbkdf2
 
 # Class: Pbkdf2
 

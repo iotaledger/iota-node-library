@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/send
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/send
 
 # Module: highLevel/send
 

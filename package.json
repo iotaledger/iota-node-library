@@ -1,7 +1,7 @@
 {
     "name": "@iota/iota.js",
     "description": "IOTA JavaScript Library",
-    "version": "1.5.7",
+    "version": "1.5.8",
     "keywords": [
         "iota",
         "client"
@@ -19,7 +19,7 @@
         "node-fetch": "^2.6.1"
     },
     "scripts": {
-        "build-clean": "rimraf ./es/*",
+        "build-clean": "rimraf ./es/* ./typings/*",
         "build-lint": "eslint src --ext .ts",
         "build-compile": "tsc",
         "build-watch": "tsc --watch",
@@ -27,17 +27,18 @@
         "test-lint": "eslint test --ext .ts",
         "test-run": "jest",
         "test": "run-s test-lint test-run",
+        "package-clean": "rimraf ./dist/*",
+        "package-esm": "copyfiles -u 1 es/**/* dist/esm",
+        "package-esm-rename": "renamer --find js --replace mjs \"dist/esm/**\"",
         "package-umd": "rollup --config rollup.config.js",
         "package-umd-min": "rollup --config rollup.config.js --environment MINIFY:true",
         "package-umd-browser": "rollup --config rollup.config.js --environment BROWSER:true",
         "package-umd-browser-min": "rollup --config rollup.config.js --environment BROWSER:true --environment MINIFY:true",
-        "package": "run-s package-umd package-umd-min package-umd-browser package-umd-browser-min",
-        "dist-clean": "rimraf ./dist/* ./typings/*",
-        "typings": "tsc --emitDeclarationOnly --declaration true --declarationDir typings",
+        "package": "run-s package-clean package-esm package-esm-rename package-umd package-umd-min package-umd-browser package-umd-browser-min",
         "docs-clean": "rimraf ./docs/*",
         "docs-build": "typedoc --disableSources --excludePrivate --excludeNotDocumented --theme markdown --readme none --hideGenerator --exclude ./**/src/index.ts,./**/src/index.*.ts,./**/src/polyfill.*.ts --out ./docs ./src",
         "docs": "npm-run-all docs-clean docs-build",
-        "dist": "run-s dist-clean build test package typings docs"
+        "dist": "run-s build test package docs"
     },
     "engines": {
         "node": ">=14.0.0"
@@ -50,6 +51,7 @@
         "@types/node-fetch": "^2.5.10",
         "@typescript-eslint/eslint-plugin": "^4.27.0",
         "@typescript-eslint/parser": "^4.27.0",
+        "copyfiles": "^2.4.1",
         "cross-env": "^7.0.2",
         "eslint": "^7.28.0",
         "eslint-plugin-header": "^3.1.1",
@@ -58,35 +60,35 @@
         "eslint-plugin-unicorn": "^33.0.1",
         "jest": "^27.0.4",
         "npm-run-all": "^4.1.5",
+        "renamer": "^3.2.1",
         "rimraf": "^3.0.2",
         "rollup": "^2.52.1",
         "rollup-plugin-terser": "^7.0.2",
         "ts-jest": "^27.0.3",
         "ts-node": "^10.0.0",
-        "typedoc": "^0.20.37",
+        "typedoc": "^0.21.0",
         "typedoc-plugin-markdown": "^3.9.0",
-        "typescript": "^4.2.4"
+        "typescript": "^4.3.4"
     },
-    "main": "dist/iota.js",
-    "browser": "dist/iota.browser.js",
+    "main": "dist/cjs/index.node.js",
+    "browser": "dist/cjs/index.browser.js",
+    "module": "dist/esm/index.node.mjs",
     "exports": {
         ".": {
             "node": {
-                "import": "./es/index.node.js",
-                "require": "./dist/iota.js"
+                "import": "./dist/esm/index.node.mjs",
+                "require": "./dist/cjs/index.node.js"
             },
             "browser": {
-                "import": "./es/index.browser.js",
-                "require": "./dist/iota.browser.js"
+                "import": "./dist/esm/index.browser.mjs",
+                "require": "./dist/cjs/index.browser.js"
             }
         },
         "./package.json": "./package.json"
     },
-    "module": "es/iota.js",
     "typings": "typings/index.d.ts",
     "files": [
         "dist",
-        "es",
         "src",
         "typings"
     ]

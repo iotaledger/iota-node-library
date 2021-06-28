@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [clients/clientError](../modules/clients_clienterror.md) / ClientError
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [clients/clientError](../modules/clients_clienterror.md) / ClientError
 
 # Class: ClientError
 
@@ -80,13 +80,11 @@ ___
 
 ▪ `Static` `Optional` **prepareStackTrace**: (`err`: `Error`, `stackTraces`: `CallSite`[]) => `any`
 
-Optional override for formatting stack traces
-
-**`see`** https://github.com/v8/v8/wiki/Stack%20Trace%20API#customizing-stack-traces
-
 #### Type declaration
 
 ▸ (`err`, `stackTraces`): `any`
+
+Optional override for formatting stack traces
 
 ##### Parameters
 

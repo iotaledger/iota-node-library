@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/ISigLockedSingleOutput](../modules/models_isiglockedsingleoutput.md) / ISigLockedSingleOutput
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ISigLockedSingleOutput](../modules/models_isiglockedsingleoutput.md) / ISigLockedSingleOutput
 
 # Interface: ISigLockedSingleOutput
 

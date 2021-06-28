@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IIndexationPayload](../modules/models_iindexationpayload.md) / IIndexationPayload
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IIndexationPayload](../modules/models_iindexationpayload.md) / IIndexationPayload
 
 # Interface: IIndexationPayload
 

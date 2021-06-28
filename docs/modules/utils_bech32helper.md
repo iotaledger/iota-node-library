@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / utils/bech32Helper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/bech32Helper
 
 # Module: utils/bech32Helper
 

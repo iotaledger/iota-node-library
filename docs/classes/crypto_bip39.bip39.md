@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/bip39](../modules/crypto_bip39.md) / Bip39
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/bip39](../modules/crypto_bip39.md) / Bip39
 
 # Class: Bip39
 

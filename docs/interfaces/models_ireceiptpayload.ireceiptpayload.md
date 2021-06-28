@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IReceiptPayload](../modules/models_ireceiptpayload.md) / IReceiptPayload
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IReceiptPayload](../modules/models_ireceiptpayload.md) / IReceiptPayload
 
 # Interface: IReceiptPayload
 

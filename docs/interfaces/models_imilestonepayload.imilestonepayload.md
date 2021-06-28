@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IMilestonePayload](../modules/models_imilestonepayload.md) / IMilestonePayload
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IMilestonePayload](../modules/models_imilestonepayload.md) / IMilestonePayload
 
 # Interface: IMilestonePayload
 

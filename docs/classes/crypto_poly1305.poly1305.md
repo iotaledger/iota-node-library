@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/poly1305](../modules/crypto_poly1305.md) / Poly1305
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/poly1305](../modules/crypto_poly1305.md) / Poly1305
 
 # Class: Poly1305
 

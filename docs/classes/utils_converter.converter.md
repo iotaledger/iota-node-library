@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/converter](../modules/utils_converter.md) / Converter
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/converter](../modules/utils_converter.md) / Converter
 
 # Class: Converter
 

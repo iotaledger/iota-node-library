@@ -1,3 +1,3 @@
-[@iota/iota.js](../README.md) / crypto/wordlists/english
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/wordlists/english
 
 # Module: crypto/wordlists/english

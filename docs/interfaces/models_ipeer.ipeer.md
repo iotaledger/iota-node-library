@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IPeer](../modules/models_ipeer.md) / IPeer
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IPeer](../modules/models_ipeer.md) / IPeer
 
 # Interface: IPeer
 

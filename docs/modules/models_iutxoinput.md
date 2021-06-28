@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/IUTXOInput
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IUTXOInput
 
 # Module: models/IUTXOInput
 

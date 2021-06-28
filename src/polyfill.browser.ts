@@ -2,7 +2,7 @@
 // SPDX-License-Identifier: Apache-2.0
 
 // BigInt
-if (!window.BigInt) {
+if (globalThis && !globalThis.BigInt) {
     // eslint-disable-next-line @typescript-eslint/no-require-imports
-    window.BigInt = require("big-integer");
+    globalThis.BigInt = require("big-integer");
 }

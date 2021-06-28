@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/arrayHelper](../modules/utils_arrayhelper.md) / ArrayHelper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/arrayHelper](../modules/utils_arrayhelper.md) / ArrayHelper
 
 # Class: ArrayHelper
 

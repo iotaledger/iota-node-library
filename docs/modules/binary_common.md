@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / binary/common
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/common
 
 # Module: binary/common
 

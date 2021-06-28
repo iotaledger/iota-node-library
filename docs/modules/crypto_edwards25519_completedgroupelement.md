@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / crypto/edwards25519/completedGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/edwards25519/completedGroupElement
 
 # Module: crypto/edwards25519/completedGroupElement
 

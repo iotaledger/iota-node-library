@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / utils/powHelper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/powHelper
 
 # Module: utils/powHelper
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/ISignatureUnlockBlock
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ISignatureUnlockBlock
 
 # Module: models/ISignatureUnlockBlock
 

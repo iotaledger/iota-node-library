@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / utils/readStream
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/readStream
 
 # Module: utils/readStream
 

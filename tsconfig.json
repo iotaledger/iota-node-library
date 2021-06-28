@@ -9,7 +9,9 @@
         "inlineSourceMap": true,
         "esModuleInterop": true,
         "stripInternal": true,
-        "resolveJsonModule": true
+        "resolveJsonModule": true,
+        "declaration": true,
+        "declarationDir": "typings"
     },
     "include": [
         "src"

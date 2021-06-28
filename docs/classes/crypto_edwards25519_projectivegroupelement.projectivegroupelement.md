@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/edwards25519/projectiveGroupElement](../modules/crypto_edwards25519_projectivegroupelement.md) / ProjectiveGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/projectiveGroupElement](../modules/crypto_edwards25519_projectivegroupelement.md) / ProjectiveGroupElement
 
 # Class: ProjectiveGroupElement
 

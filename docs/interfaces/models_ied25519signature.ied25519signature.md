@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IEd25519Signature](../modules/models_ied25519signature.md) / IEd25519Signature
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IEd25519Signature](../modules/models_ied25519signature.md) / IEd25519Signature
 
 # Interface: IEd25519Signature
 

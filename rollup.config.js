@@ -5,12 +5,10 @@ import { terser } from 'rollup-plugin-terser';
 
 const plugins = [
     replace({
-        "process.env.BROWSER": !!process.env.BROWSER,
         preventAssignment: true
     }),
     commonjs(),
     resolve({
-        browser: process.env.BROWSER
     })
 ];
 
@@ -21,7 +19,7 @@ if (process.env.MINIFY) {
 export default {
     input: `./es/index${process.env.BROWSER ? '.browser' : '.node'}.js`,
     output: {
-        file: `dist/iota${process.env.BROWSER ? '.browser' : ''}${process.env.MINIFY ? '.min' : ''}.js`,
+        file: `dist/cjs/index${process.env.BROWSER ? '.browser' : '.node'}${process.env.MINIFY ? '.min' : ''}.js`,
         format: 'umd',
         name: 'Iota',
         compact: process.env.MINIFY,

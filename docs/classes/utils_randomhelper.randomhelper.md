@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/randomHelper](../modules/utils_randomhelper.md) / RandomHelper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/randomHelper](../modules/utils_randomhelper.md) / RandomHelper
 
 # Class: RandomHelper
 
@@ -12,7 +12,7 @@ Class to help with random generation.
 
 - [constructor](utils_randomhelper.randomhelper.md#constructor)
 
-### Methods
+### Properties
 
 - [generate](utils_randomhelper.randomhelper.md#generate)
 
@@ -22,21 +22,25 @@ Class to help with random generation.
 
 • **new RandomHelper**()
 
-## Methods
+## Properties
 
 ### generate
 
-▸ `Static` **generate**(`length`): `Uint8Array`
+▪ `Static` **generate**: (`length`: `number`) => `Uint8Array`
+
+#### Type declaration
+
+▸ (`length`): `Uint8Array`
 
 Generate a new random array.
 
-#### Parameters
+##### Parameters
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `length` | `number` | The length of buffer to create. |
 
-#### Returns
+##### Returns
 
 `Uint8Array`
 

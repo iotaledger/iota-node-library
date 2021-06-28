@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/curl](../modules/crypto_curl.md) / Curl
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/curl](../modules/crypto_curl.md) / Curl
 
 # Class: Curl
 

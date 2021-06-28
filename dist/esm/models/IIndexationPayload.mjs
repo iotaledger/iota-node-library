@@ -1,0 +1,5 @@
+/**
+ * The global type for the payload.
+ */
+export const INDEXATION_PAYLOAD_TYPE = 2;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSUluZGV4YXRpb25QYXlsb2FkLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vc3JjL21vZGVscy9JSW5kZXhhdGlvblBheWxvYWQudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBSUE7O0dBRUc7QUFDSCxNQUFNLENBQUMsTUFBTSx1QkFBdUIsR0FBRyxDQUFDLENBQUMifQ==

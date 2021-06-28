@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/api/ITipsResponse
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/api/ITipsResponse
 
 # Module: models/api/ITipsResponse
 

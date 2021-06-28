@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/bech32Helper](../modules/utils_bech32helper.md) / Bech32Helper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/bech32Helper](../modules/utils_bech32helper.md) / Bech32Helper
 
 # Class: Bech32Helper
 

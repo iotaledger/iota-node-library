@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/sha256](../modules/crypto_sha256.md) / Sha256
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/sha256](../modules/crypto_sha256.md) / Sha256
 
 # Class: Sha256
 

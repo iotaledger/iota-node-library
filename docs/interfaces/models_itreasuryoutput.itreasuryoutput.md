@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/ITreasuryOutput](../modules/models_itreasuryoutput.md) / ITreasuryOutput
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITreasuryOutput](../modules/models_itreasuryoutput.md) / ITreasuryOutput
 
 # Interface: ITreasuryOutput
 

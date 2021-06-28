@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/ITransactionEssence
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ITransactionEssence
 
 # Module: models/ITransactionEssence
 

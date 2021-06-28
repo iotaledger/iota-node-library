@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/bech32](../modules/crypto_bech32.md) / Bech32
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/bech32](../modules/crypto_bech32.md) / Bech32
 
 # Class: Bech32
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/edwards25519/extendedGroupElement](../modules/crypto_edwards25519_extendedgroupelement.md) / ExtendedGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/extendedGroupElement](../modules/crypto_edwards25519_extendedgroupelement.md) / ExtendedGroupElement
 
 # Class: ExtendedGroupElement
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/bip32Path](../modules/crypto_bip32path.md) / Bip32Path
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/bip32Path](../modules/crypto_bip32path.md) / Bip32Path
 
 # Class: Bip32Path
 

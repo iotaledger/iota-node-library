@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/retry
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/retry
 
 # Module: highLevel/retry
 

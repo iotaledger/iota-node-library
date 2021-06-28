@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / encoding/base64
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / encoding/base64
 
 # Module: encoding/base64
 

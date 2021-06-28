@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/ITreasuryTransactionPayload](../modules/models_itreasurytransactionpayload.md) / ITreasuryTransactionPayload
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITreasuryTransactionPayload](../modules/models_itreasurytransactionpayload.md) / ITreasuryTransactionPayload
 
 # Interface: ITreasuryTransactionPayload
 

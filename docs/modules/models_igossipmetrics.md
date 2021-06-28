@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/IGossipMetrics
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IGossipMetrics
 
 # Module: models/IGossipMetrics
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [addressTypes/ed25519Address](../modules/addresstypes_ed25519address.md) / Ed25519Address
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [addressTypes/ed25519Address](../modules/addresstypes_ed25519address.md) / Ed25519Address
 
 # Class: Ed25519Address
 

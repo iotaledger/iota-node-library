@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/api/IMessagesResponse](../modules/models_api_imessagesresponse.md) / IMessagesResponse
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IMessagesResponse](../modules/models_api_imessagesresponse.md) / IMessagesResponse
 
 # Interface: IMessagesResponse
 

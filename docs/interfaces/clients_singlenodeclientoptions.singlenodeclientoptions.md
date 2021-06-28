@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [clients/singleNodeClientOptions](../modules/clients_singlenodeclientoptions.md) / SingleNodeClientOptions
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [clients/singleNodeClientOptions](../modules/clients_singlenodeclientoptions.md) / SingleNodeClientOptions
 
 # Interface: SingleNodeClientOptions
 

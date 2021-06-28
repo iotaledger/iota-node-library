@@ -7,5 +7,5 @@ export declare class RandomHelper {
      * @param length The length of buffer to create.
      * @returns The random array.
      */
-    static generate(length: number): Uint8Array;
+    static generate: (length: number) => Uint8Array;
 }

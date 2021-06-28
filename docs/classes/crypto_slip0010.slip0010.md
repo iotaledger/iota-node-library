@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/slip0010](../modules/crypto_slip0010.md) / Slip0010
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/slip0010](../modules/crypto_slip0010.md) / Slip0010
 
 # Class: Slip0010
 

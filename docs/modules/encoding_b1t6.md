@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / encoding/b1t6
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / encoding/b1t6
 
 # Module: encoding/b1t6
 

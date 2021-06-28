@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/x25519](../modules/crypto_x25519.md) / X25519
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/x25519](../modules/crypto_x25519.md) / X25519
 
 # Class: X25519
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / highLevel/getUnspentAddresses
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/getUnspentAddresses
 
 # Module: highLevel/getUnspentAddresses
 

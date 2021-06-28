@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IBip44GeneratorState](../modules/models_ibip44generatorstate.md) / IBip44GeneratorState
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IBip44GeneratorState](../modules/models_ibip44generatorstate.md) / IBip44GeneratorState
 
 # Interface: IBip44GeneratorState
 

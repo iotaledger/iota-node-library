@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / models/IPowProvider
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IPowProvider
 
 # Module: models/IPowProvider
 

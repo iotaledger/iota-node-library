@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/sha512](../modules/crypto_sha512.md) / Sha512
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/sha512](../modules/crypto_sha512.md) / Sha512
 
 # Class: Sha512
 

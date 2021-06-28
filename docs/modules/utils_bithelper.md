@@ -1,3 +1,3 @@
-[@iota/iota.js](../README.md) / utils/bitHelper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/bitHelper
 
 # Module: utils/bitHelper

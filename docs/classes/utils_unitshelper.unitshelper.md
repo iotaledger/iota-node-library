@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [utils/unitsHelper](../modules/utils_unitshelper.md) / UnitsHelper
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/unitsHelper](../modules/utils_unitshelper.md) / UnitsHelper
 
 # Class: UnitsHelper
 

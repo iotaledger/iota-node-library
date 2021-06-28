@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IAddress](../modules/models_iaddress.md) / IAddress
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IAddress](../modules/models_iaddress.md) / IAddress
 
 # Interface: IAddress
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / crypto/bip32Path
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/bip32Path
 
 # Module: crypto/bip32Path
 

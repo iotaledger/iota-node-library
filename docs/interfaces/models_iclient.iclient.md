@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/IClient](../modules/models_iclient.md) / IClient
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IClient](../modules/models_iclient.md) / IClient
 
 # Interface: IClient
 

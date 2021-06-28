@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / clients/singleNodeClient
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / clients/singleNodeClient
 
 # Module: clients/singleNodeClient
 

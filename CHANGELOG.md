@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.5.8
+
+* Improve ESM Modules format
+
 ## v1.5.7
 
 * Embedded Base64 implementation

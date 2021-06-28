@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/edwards25519/cachedGroupElement](../modules/crypto_edwards25519_cachedgroupelement.md) / CachedGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/cachedGroupElement](../modules/crypto_edwards25519_cachedgroupelement.md) / CachedGroupElement
 
 # Class: CachedGroupElement
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [crypto/blake2b](../modules/crypto_blake2b.md) / Blake2b
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/blake2b](../modules/crypto_blake2b.md) / Blake2b
 
 # Class: Blake2b
 

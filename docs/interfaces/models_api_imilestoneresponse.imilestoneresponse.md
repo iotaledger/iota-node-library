@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [models/api/IMilestoneResponse](../modules/models_api_imilestoneresponse.md) / IMilestoneResponse
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IMilestoneResponse](../modules/models_api_imilestoneresponse.md) / IMilestoneResponse
 
 # Interface: IMilestoneResponse
 

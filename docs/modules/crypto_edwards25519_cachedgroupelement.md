@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / crypto/edwards25519/cachedGroupElement
+[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/edwards25519/cachedGroupElement
 
 # Module: crypto/edwards25519/cachedGroupElement
 
