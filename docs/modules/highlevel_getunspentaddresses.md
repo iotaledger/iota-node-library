@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/getUnspentAddresses
+[@iota/iota.js](../README.md) / highLevel/getUnspentAddresses
 
 # Module: highLevel/getUnspentAddresses
 
@@ -21,8 +21,8 @@ Get all the unspent addresses.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `addressOptions?` | `Object` | Optional address configuration for balance address lookups. |
 
@@ -36,7 +36,7 @@ ___
 
 ### getUnspentAddressesWithAddressGenerator
 
-▸ **getUnspentAddressesWithAddressGenerator**<T\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `addressOptions?`): `Promise`<{}[]\>
+▸ **getUnspentAddressesWithAddressGenerator**<`T`\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `addressOptions?`): `Promise`<{}[]\>
 
 Get all the unspent addresses using an address generator.
 
@@ -50,8 +50,8 @@ Get all the unspent addresses using an address generator.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to get the addresses from. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to get the addresses from. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `initialAddressState` | `T` | The initial address state for calculating the addresses. |
 | `nextAddressPath` | (`addressState`: `T`, `isFirst`: `boolean`) => `string` | Calculate the next address for inputs. |
 | `addressOptions?` | `Object` | Optional address configuration for balance address lookups. |

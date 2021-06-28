@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IAddress](../modules/models_iaddress.md) / IAddress
+[@iota/iota.js](../README.md) / [models/IAddress](../modules/models_iaddress.md) / IAddress
 
 # Interface: IAddress
 
@@ -8,7 +8,7 @@ Interface defining address.
 
 ## Implemented by
 
-- [Ed25519Address](../classes/addresstypes_ed25519address.ed25519address.md)
+- [`Ed25519Address`](../classes/addresstypes_ed25519address.ed25519address.md)
 
 ## Table of contents
 

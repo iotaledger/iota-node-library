@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/blake2b](../modules/crypto_blake2b.md) / Blake2b
+[@iota/iota.js](../README.md) / [crypto/blake2b](../modules/crypto_blake2b.md) / Blake2b
 
 # Class: Blake2b
 
@@ -23,7 +23,7 @@ TypeScript conversion from https://github.com/dcposch/blakejs.
 
 ### SIZE\_256
 
-▪ `Static` **SIZE\_256**: `number` = 32
+▪ `Static` **SIZE\_256**: `number` = `32`
 
 Blake2b 256.
 
@@ -31,7 +31,7 @@ ___
 
 ### SIZE\_512
 
-▪ `Static` **SIZE\_512**: `number` = 64
+▪ `Static` **SIZE\_512**: `number` = `64`
 
 Blake2b 512.
 

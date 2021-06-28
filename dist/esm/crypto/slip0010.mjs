@@ -1,9 +1,9 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
-import { Converter } from "../utils/converter";
-import { Ed25519 } from "./ed25519";
-import { HmacSha512 } from "./hmacSha512";
+import { Converter } from "../utils/converter.mjs";
+import { Ed25519 } from "./ed25519.mjs";
+import { HmacSha512 } from "./hmacSha512.mjs";
 /**
  * Class to help with slip0010 key derivation
  * https://github.com/satoshilabs/slips/blob/master/slip-0010.md.

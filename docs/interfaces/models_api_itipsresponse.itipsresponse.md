@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/ITipsResponse](../modules/models_api_itipsresponse.md) / ITipsResponse
+[@iota/iota.js](../README.md) / [models/api/ITipsResponse](../modules/models_api_itipsresponse.md) / ITipsResponse
 
 # Interface: ITipsResponse
 

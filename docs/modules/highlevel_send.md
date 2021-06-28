@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/send
+[@iota/iota.js](../README.md) / highLevel/send
 
 # Module: highLevel/send
 
@@ -17,7 +17,7 @@
 
 ### calculateInputs
 
-▸ **calculateInputs**<T\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `outputs`, `zeroCount?`): `Promise`<{}[]\>
+▸ **calculateInputs**<`T`\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `outputs`, `zeroCount?`): `Promise`<{}[]\>
 
 Calculate the inputs from the seed and basePath.
 
@@ -31,12 +31,12 @@ Calculate the inputs from the seed and basePath.
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | `undefined` | The client or node endpoint to calculate the inputs with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | `undefined` | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | `undefined` | The client or node endpoint to calculate the inputs with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | `undefined` | The seed to use for address generation. |
 | `initialAddressState` | `T` | `undefined` | The initial address state for calculating the addresses. |
 | `nextAddressPath` | (`addressState`: `T`, `isFirst`: `boolean`) => `string` | `undefined` | Calculate the next address for inputs. |
 | `outputs` | {}[] | `undefined` | The outputs to send. |
-| `zeroCount` | `number` | 5 | Abort when the number of zero balances is exceeded. |
+| `zeroCount` | `number` | `5` | Abort when the number of zero balances is exceeded. |
 
 #### Returns
 
@@ -56,8 +56,8 @@ Send a transfer from the balance on the seed to a single output.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `addressBech32` | `string` | The address to send the funds to in bech32 format. |
 | `amount` | `number` | The amount to send. |
@@ -82,8 +82,8 @@ Send a transfer from the balance on the seed to a single output.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `addressEd25519` | `string` | The address to send the funds to in ed25519 format. |
 | `amount` | `number` | The amount to send. |
@@ -108,8 +108,8 @@ Send a transfer from the balance on the seed to multiple outputs.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `outputs` | {}[] | The address to send the funds to in bech32 format and amounts. |
 | `indexation?` | `Object` | Optional indexation data to associate with the transaction. |
@@ -133,8 +133,8 @@ Send a transfer from the balance on the seed.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `outputs` | {}[] | The outputs including address to send the funds to in ed25519 format and amount. |
 | `indexation?` | `Object` | Optional indexation data to associate with the transaction. |
@@ -150,7 +150,7 @@ ___
 
 ### sendWithAddressGenerator
 
-▸ **sendWithAddressGenerator**<T\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `outputs`, `indexation?`, `zeroCount?`): `Promise`<`Object`\>
+▸ **sendWithAddressGenerator**<`T`\>(`client`, `seed`, `initialAddressState`, `nextAddressPath`, `outputs`, `indexation?`, `zeroCount?`): `Promise`<`Object`\>
 
 Send a transfer using account based indexing for the inputs.
 
@@ -164,8 +164,8 @@ Send a transfer using account based indexing for the inputs.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `initialAddressState` | `T` | The initial address state for calculating the addresses. |
 | `nextAddressPath` | (`addressState`: `T`, `isFirst`: `boolean`) => `string` | Calculate the next address for inputs. |
 | `outputs` | {}[] | The address to send the funds to in bech32 format and amounts. |

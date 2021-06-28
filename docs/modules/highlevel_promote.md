@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/promote
+[@iota/iota.js](../README.md) / highLevel/promote
 
 # Module: highLevel/promote
 
@@ -20,7 +20,7 @@ Promote an existing message.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The clientor node endpoint to perform the promote with. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The clientor node endpoint to perform the promote with. |
 | `messageId` | `string` | The message to promote. |
 
 #### Returns

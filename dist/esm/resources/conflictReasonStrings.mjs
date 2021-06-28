@@ -1,6 +1,6 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { ConflictReason } from "../models/conflictReason";
+import { ConflictReason } from "../models/conflictReason.mjs";
 /**
  * Conflict reason strings.
  */

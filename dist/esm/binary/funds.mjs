@@ -1,5 +1,5 @@
-import { deserializeAddress, MIN_ED25519_ADDRESS_LENGTH, serializeAddress } from "./address";
-import { UINT64_SIZE } from "./common";
+import { deserializeAddress, MIN_ED25519_ADDRESS_LENGTH, serializeAddress } from "./address.mjs";
+import { UINT64_SIZE } from "./common.mjs";
 /**
  * The length of the tail hash length in bytes.
  */

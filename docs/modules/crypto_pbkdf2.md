@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/pbkdf2
+[@iota/iota.js](../README.md) / crypto/pbkdf2
 
 # Module: crypto/pbkdf2
 

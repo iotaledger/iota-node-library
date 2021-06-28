@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / pow/localPowProvider
+[@iota/iota.js](../README.md) / pow/localPowProvider
 
 # Module: pow/localPowProvider
 

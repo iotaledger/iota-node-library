@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
-import { Sha512 } from "./sha512";
+import { Sha512 } from "./sha512.mjs";
 /**
  * Class to help with HmacSha512 scheme.
  * TypeScript conversion from https://github.com/emn178/js-sha512.

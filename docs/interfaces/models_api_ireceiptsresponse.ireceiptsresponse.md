@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IReceiptsResponse](../modules/models_api_ireceiptsresponse.md) / IReceiptsResponse
+[@iota/iota.js](../README.md) / [models/api/IReceiptsResponse](../modules/models_api_ireceiptsresponse.md) / IReceiptsResponse
 
 # Interface: IReceiptsResponse
 
@@ -16,6 +16,6 @@ Receipts response details.
 
 ### receipts
 
-• **receipts**: { `milestoneIndex`: `number` ; `receipt`: [IReceiptPayload](models_ireceiptpayload.ireceiptpayload.md)  }[]
+• **receipts**: { `milestoneIndex`: `number` ; `receipt`: [`IReceiptPayload`](models_ireceiptpayload.ireceiptpayload.md)  }[]
 
 The receipts.

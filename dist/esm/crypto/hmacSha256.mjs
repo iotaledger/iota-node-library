@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
-import { Sha256 } from "./sha256";
+import { Sha256 } from "./sha256.mjs";
 /**
  * Class to help with HmacSha256 scheme.
  * TypeScript conversion from https://github.com/emn178/js-sha256.

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/converter](../modules/utils_converter.md) / Converter
+[@iota/iota.js](../README.md) / [utils/converter](../modules/utils_converter.md) / Converter
 
 # Class: Converter
 
@@ -124,7 +124,7 @@ Encode a raw array to hex string.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `array` | `ArrayLike`<number\> | The bytes to encode. |
+| `array` | `ArrayLike`<`number`\> | The bytes to encode. |
 | `startIndex?` | `number` | The index to start in the bytes. |
 | `length?` | `number` | The length of bytes to read. |
 | `reverse?` | `boolean` | Reverse the combine direction. |
@@ -147,7 +147,7 @@ Encode a raw array to UTF8 string.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `array` | `ArrayLike`<number\> | The bytes to encode. |
+| `array` | `ArrayLike`<`number`\> | The bytes to encode. |
 | `startIndex?` | `number` | The index to start in the bytes. |
 | `length?` | `number` | The length of bytes to read. |
 

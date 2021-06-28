@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/hmacSha256
+[@iota/iota.js](../README.md) / crypto/hmacSha256
 
 # Module: crypto/hmacSha256
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IMigratedFunds
+[@iota/iota.js](../README.md) / models/IMigratedFunds
 
 # Module: models/IMigratedFunds
 

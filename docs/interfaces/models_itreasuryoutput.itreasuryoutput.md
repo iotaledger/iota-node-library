@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITreasuryOutput](../modules/models_itreasuryoutput.md) / ITreasuryOutput
+[@iota/iota.js](../README.md) / [models/ITreasuryOutput](../modules/models_itreasuryoutput.md) / ITreasuryOutput
 
 # Interface: ITreasuryOutput
 
@@ -8,9 +8,9 @@ Treasury Output.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``2``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``2``\>
 
-  ↳ **ITreasuryOutput**
+  ↳ **`ITreasuryOutput`**
 
 ## Table of contents
 

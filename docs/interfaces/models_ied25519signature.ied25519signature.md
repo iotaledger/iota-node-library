@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IEd25519Signature](../modules/models_ied25519signature.md) / IEd25519Signature
+[@iota/iota.js](../README.md) / [models/IEd25519Signature](../modules/models_ied25519signature.md) / IEd25519Signature
 
 # Interface: IEd25519Signature
 
@@ -8,9 +8,9 @@ Ed25519Signature signature.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``0``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``0``\>
 
-  ↳ **IEd25519Signature**
+  ↳ **`IEd25519Signature`**
 
 ## Table of contents
 

@@ -1,10 +1,10 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Converter } from "../utils/converter";
-import { RandomHelper } from "../utils/randomHelper";
-import { Pbkdf2 } from "./pbkdf2";
-import { Sha256 } from "./sha256";
-import { english } from "./wordlists/english";
+import { Converter } from "../utils/converter.mjs";
+import { RandomHelper } from "../utils/randomHelper.mjs";
+import { Pbkdf2 } from "./pbkdf2.mjs";
+import { Sha256 } from "./sha256.mjs";
+import { english } from "./wordlists/english.mjs";
 /**
  * Implementation of Bip39 for mnemonic generation.
  */

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ISigLockedDustAllowanceOutput
+[@iota/iota.js](../README.md) / models/ISigLockedDustAllowanceOutput
 
 # Module: models/ISigLockedDustAllowanceOutput
 

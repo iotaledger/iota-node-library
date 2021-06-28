@@ -1,12 +1,12 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { MAX_MESSAGE_LENGTH, serializeMessage } from "../binary/message";
-import { Blake2b } from "../crypto/blake2b";
-import { ArrayHelper } from "../utils/arrayHelper";
-import { BigIntHelper } from "../utils/bigIntHelper";
-import { Converter } from "../utils/converter";
-import { WriteStream } from "../utils/writeStream";
-import { ClientError } from "./clientError";
+import { MAX_MESSAGE_LENGTH, serializeMessage } from "../binary/message.mjs";
+import { Blake2b } from "../crypto/blake2b.mjs";
+import { ArrayHelper } from "../utils/arrayHelper.mjs";
+import { BigIntHelper } from "../utils/bigIntHelper.mjs";
+import { Converter } from "../utils/converter.mjs";
+import { WriteStream } from "../utils/writeStream.mjs";
+import { ClientError } from "./clientError.mjs";
 /**
  * Client for API communication.
  */

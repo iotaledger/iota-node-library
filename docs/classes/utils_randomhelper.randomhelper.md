@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/randomHelper](../modules/utils_randomhelper.md) / RandomHelper
+[@iota/iota.js](../README.md) / [utils/randomHelper](../modules/utils_randomhelper.md) / RandomHelper
 
 # Class: RandomHelper
 

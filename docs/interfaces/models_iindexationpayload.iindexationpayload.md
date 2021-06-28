@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IIndexationPayload](../modules/models_iindexationpayload.md) / IIndexationPayload
+[@iota/iota.js](../README.md) / [models/IIndexationPayload](../modules/models_iindexationpayload.md) / IIndexationPayload
 
 # Interface: IIndexationPayload
 
@@ -8,9 +8,9 @@ Indexation payload.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``2``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``2``\>
 
-  ↳ **IIndexationPayload**
+  ↳ **`IIndexationPayload`**
 
 ## Table of contents
 

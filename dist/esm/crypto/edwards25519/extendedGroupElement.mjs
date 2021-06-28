@@ -6,13 +6,13 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which is in turn a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { ArrayHelper } from "../../utils/arrayHelper";
-import { CachedGroupElement } from "./cachedGroupElement";
-import { CompletedGroupElement } from "./completedGroupElement";
-import { CONST_D, CONST_D2, CONST_SQRT_M1 } from "./const";
-import { FieldElement } from "./fieldElement";
-import { PreComputedGroupElement } from "./preComputedGroupElement";
-import { ProjectiveGroupElement } from "./projectiveGroupElement";
+import { ArrayHelper } from "../../utils/arrayHelper.mjs";
+import { CachedGroupElement } from "./cachedGroupElement.mjs";
+import { CompletedGroupElement } from "./completedGroupElement.mjs";
+import { CONST_D, CONST_D2, CONST_SQRT_M1 } from "./const.mjs";
+import { FieldElement } from "./fieldElement.mjs";
+import { PreComputedGroupElement } from "./preComputedGroupElement.mjs";
+import { ProjectiveGroupElement } from "./projectiveGroupElement.mjs";
 /**
  * Group elements are members of the elliptic curve -x^2 + y^2 = 1 + d * x^2 * y^2 where d = -121665/121666.
  * ExtendedGroupElement: (X:Y:Z:T) satisfying x=X/Z, y=Y/Z, XY=ZT.

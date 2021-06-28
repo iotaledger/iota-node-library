@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/retrieveData
+[@iota/iota.js](../README.md) / highLevel/retrieveData
 
 # Module: highLevel/retrieveData
 
@@ -12,7 +12,7 @@
 
 ### retrieveData
 
-▸ **retrieveData**(`client`, `messageId`): `Promise`<{} \| undefined\>
+▸ **retrieveData**(`client`, `messageId`): `Promise`<{} \| `undefined`\>
 
 Retrieve a data message.
 
@@ -20,11 +20,11 @@ Retrieve a data message.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to retrieve the data with. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to retrieve the data with. |
 | `messageId` | `string` | The message id of the data to get. |
 
 #### Returns
 
-`Promise`<{} \| undefined\>
+`Promise`<{} \| `undefined`\>
 
 The message index and data.

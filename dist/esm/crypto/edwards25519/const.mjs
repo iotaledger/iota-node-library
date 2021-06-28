@@ -6,9 +6,9 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which is in turn a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { BIG_ARR } from "./bigIntCommon";
-import { FieldElement } from "./fieldElement";
-import { PreComputedGroupElement } from "./preComputedGroupElement";
+import { BIG_ARR } from "./bigIntCommon.mjs";
+import { FieldElement } from "./fieldElement.mjs";
+import { PreComputedGroupElement } from "./preComputedGroupElement.mjs";
 // d is a constant in the Edwards curve equation.
 export const CONST_D = new FieldElement([-10913610, 13857413, -15372611, 6949391, 114729, -8787816, -6275908, -3247719, -18696448, -12055116]);
 // d2 is 2*d.

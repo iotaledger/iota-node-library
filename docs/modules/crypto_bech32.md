@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/bech32
+[@iota/iota.js](../README.md) / crypto/bech32
 
 # Module: crypto/bech32
 

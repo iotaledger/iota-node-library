@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/unitsHelper](../modules/utils_unitshelper.md) / UnitsHelper
+[@iota/iota.js](../README.md) / [utils/unitsHelper](../modules/utils_unitshelper.md) / UnitsHelper
 
 # Class: UnitsHelper
 
@@ -41,7 +41,7 @@ Map units.
 
 ### calculateBest
 
-▸ `Static` **calculateBest**(`value`): [Units](../modules/models_units.md#units)
+▸ `Static` **calculateBest**(`value`): [`Units`](../modules/models_units.md#units)
 
 Format the value in the best units.
 
@@ -53,7 +53,7 @@ Format the value in the best units.
 
 #### Returns
 
-[Units](../modules/models_units.md#units)
+[`Units`](../modules/models_units.md#units)
 
 The best units for the value.
 
@@ -70,8 +70,8 @@ Convert the value to different units.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `value` | `number` | The value to convert. |
-| `fromUnit` | [Units](../modules/models_units.md#units) | The form unit. |
-| `toUnit` | [Units](../modules/models_units.md#units) | The to unit. |
+| `fromUnit` | [`Units`](../modules/models_units.md#units) | The form unit. |
+| `toUnit` | [`Units`](../modules/models_units.md#units) | The to unit. |
 
 #### Returns
 
@@ -92,7 +92,7 @@ Format the value in the best units.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `value` | `number` | `undefined` | The value to format. |
-| `decimalPlaces` | `number` | 2 | The number of decimal places to display. |
+| `decimalPlaces` | `number` | `2` | The number of decimal places to display. |
 
 #### Returns
 
@@ -113,8 +113,8 @@ Format the value in the best units.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `value` | `number` | `undefined` | The value to format. |
-| `unit` | [Units](../modules/models_units.md#units) | `undefined` | The unit to format with. |
-| `decimalPlaces` | `number` | 2 | The number of decimal places to display. |
+| `unit` | [`Units`](../modules/models_units.md#units) | `undefined` | The unit to format with. |
+| `decimalPlaces` | `number` | `2` | The number of decimal places to display. |
 
 #### Returns
 

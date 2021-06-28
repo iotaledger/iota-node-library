@@ -6,11 +6,11 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which in a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { CachedGroupElement } from "./cachedGroupElement";
-import { CompletedGroupElement } from "./completedGroupElement";
-import { CONST_BI } from "./const";
-import { ExtendedGroupElement } from "./extendedGroupElement";
-import { FieldElement } from "./fieldElement";
+import { CachedGroupElement } from "./cachedGroupElement.mjs";
+import { CompletedGroupElement } from "./completedGroupElement.mjs";
+import { CONST_BI } from "./const.mjs";
+import { ExtendedGroupElement } from "./extendedGroupElement.mjs";
+import { FieldElement } from "./fieldElement.mjs";
 /**
  * Group elements are members of the elliptic curve -x^2 + y^2 = 1 + d * x^2 *
  * y^2 where d = -121665/121666

@@ -1,9 +1,9 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock";
-import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock";
-import { SMALL_TYPE_LENGTH, UINT16_SIZE } from "./common";
-import { deserializeSignature, MIN_SIGNATURE_LENGTH, serializeSignature } from "./signature";
+import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock.mjs";
+import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock.mjs";
+import { SMALL_TYPE_LENGTH, UINT16_SIZE } from "./common.mjs";
+import { deserializeSignature, MIN_SIGNATURE_LENGTH, serializeSignature } from "./signature.mjs";
 /**
  * The minimum length of an unlock block binary representation.
  */

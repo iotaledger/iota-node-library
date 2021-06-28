@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [seedTypes/ed25519Seed](../modules/seedtypes_ed25519seed.md) / Ed25519Seed
+[@iota/iota.js](../README.md) / [seedTypes/ed25519Seed](../modules/seedtypes_ed25519seed.md) / Ed25519Seed
 
 # Class: Ed25519Seed
 
@@ -8,7 +8,7 @@ Class to help with seeds.
 
 ## Implements
 
-- [ISeed](../interfaces/models_iseed.iseed.md)
+- [`ISeed`](../interfaces/models_iseed.iseed.md)
 
 ## Table of contents
 
@@ -41,7 +41,7 @@ Create a new instance of Ed25519Seed.
 
 ### generateSeedFromPath
 
-▸ **generateSeedFromPath**(`path`): [ISeed](../interfaces/models_iseed.iseed.md)
+▸ **generateSeedFromPath**(`path`): [`ISeed`](../interfaces/models_iseed.iseed.md)
 
 Generate a new seed from the path.
 
@@ -49,11 +49,11 @@ Generate a new seed from the path.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `path` | [Bip32Path](crypto_bip32path.bip32path.md) | The path to generate the seed for. |
+| `path` | [`Bip32Path`](crypto_bip32path.bip32path.md) | The path to generate the seed for. |
 
 #### Returns
 
-[ISeed](../interfaces/models_iseed.iseed.md)
+[`ISeed`](../interfaces/models_iseed.iseed.md)
 
 The generated seed.
 
@@ -65,13 +65,13 @@ ___
 
 ### keyPair
 
-▸ **keyPair**(): [IKeyPair](../interfaces/models_ikeypair.ikeypair.md)
+▸ **keyPair**(): [`IKeyPair`](../interfaces/models_ikeypair.ikeypair.md)
 
 Get the key pair from the seed.
 
 #### Returns
 
-[IKeyPair](../interfaces/models_ikeypair.ikeypair.md)
+[`IKeyPair`](../interfaces/models_ikeypair.ikeypair.md)
 
 The key pair.
 
@@ -101,7 +101,7 @@ ___
 
 ### fromMnemonic
 
-▸ `Static` **fromMnemonic**(`mnemonic`): [Ed25519Seed](seedtypes_ed25519seed.ed25519seed.md)
+▸ `Static` **fromMnemonic**(`mnemonic`): [`Ed25519Seed`](seedtypes_ed25519seed.ed25519seed.md)
 
 Create the seed from a Bip39 mnemonic.
 
@@ -113,6 +113,6 @@ Create the seed from a Bip39 mnemonic.
 
 #### Returns
 
-[Ed25519Seed](seedtypes_ed25519seed.ed25519seed.md)
+[`Ed25519Seed`](seedtypes_ed25519seed.ed25519seed.md)
 
 A new instance of Ed25519Seed.

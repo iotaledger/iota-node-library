@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / crypto/ed25519
+[@iota/iota.js](../README.md) / crypto/ed25519
 
 # Module: crypto/ed25519
 

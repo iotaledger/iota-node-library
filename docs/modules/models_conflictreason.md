@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/conflictReason
+[@iota/iota.js](../README.md) / models/conflictReason
 
 # Module: models/conflictReason
 

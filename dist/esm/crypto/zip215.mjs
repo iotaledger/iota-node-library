@@ -6,11 +6,11 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which in a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { Sha512 } from "../crypto/sha512";
-import { Ed25519 } from "./ed25519";
-import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement";
-import { ProjectiveGroupElement } from "./edwards25519/projectiveGroupElement";
-import { scalarMinimal, scalarReduce } from "./edwards25519/scalar";
+import { Sha512 } from "../crypto/sha512.mjs";
+import { Ed25519 } from "./ed25519.mjs";
+import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement.mjs";
+import { ProjectiveGroupElement } from "./edwards25519/projectiveGroupElement.mjs";
+import { scalarMinimal, scalarReduce } from "./edwards25519/scalar.mjs";
 /**
  * Implementation of Zip215.
  */

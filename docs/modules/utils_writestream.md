@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/writeStream
+[@iota/iota.js](../README.md) / utils/writeStream
 
 # Module: utils/writeStream
 

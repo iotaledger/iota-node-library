@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/poly1305](../modules/crypto_poly1305.md) / Poly1305
+[@iota/iota.js](../README.md) / [crypto/poly1305](../modules/crypto_poly1305.md) / Poly1305
 
 # Class: Poly1305
 
@@ -62,7 +62,7 @@ ___
 
 ### update
 
-▸ **update**(`input`): [Poly1305](crypto_poly1305.poly1305.md)
+▸ **update**(`input`): [`Poly1305`](crypto_poly1305.poly1305.md)
 
 Update the hash.
 
@@ -74,6 +74,6 @@ Update the hash.
 
 #### Returns
 
-[Poly1305](crypto_poly1305.poly1305.md)
+[`Poly1305`](crypto_poly1305.poly1305.md)
 
 Hasher instance.

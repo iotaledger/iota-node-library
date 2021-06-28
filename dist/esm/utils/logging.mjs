@@ -1,19 +1,19 @@
-import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address";
-import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature";
-import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload";
-import { MILESTONE_PAYLOAD_TYPE } from "../models/IMilestonePayload";
-import { RECEIPT_PAYLOAD_TYPE } from "../models/IReceiptPayload";
-import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock";
-import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput";
-import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput";
-import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock";
-import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence";
-import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload";
-import { TREASURY_INPUT_TYPE } from "../models/ITreasuryInput";
-import { TREASURY_OUTPUT_TYPE } from "../models/ITreasuryOutput";
-import { TREASURY_TRANSACTION_PAYLOAD_TYPE } from "../models/ITreasuryTransactionPayload";
-import { UTXO_INPUT_TYPE } from "../models/IUTXOInput";
-import { Converter } from "./converter";
+import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address.mjs";
+import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature.mjs";
+import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload.mjs";
+import { MILESTONE_PAYLOAD_TYPE } from "../models/IMilestonePayload.mjs";
+import { RECEIPT_PAYLOAD_TYPE } from "../models/IReceiptPayload.mjs";
+import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock.mjs";
+import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput.mjs";
+import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput.mjs";
+import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock.mjs";
+import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence.mjs";
+import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload.mjs";
+import { TREASURY_INPUT_TYPE } from "../models/ITreasuryInput.mjs";
+import { TREASURY_OUTPUT_TYPE } from "../models/ITreasuryOutput.mjs";
+import { TREASURY_TRANSACTION_PAYLOAD_TYPE } from "../models/ITreasuryTransactionPayload.mjs";
+import { UTXO_INPUT_TYPE } from "../models/IUTXOInput.mjs";
+import { Converter } from "./converter.mjs";
 /**
  * The logger used by the log methods.
  * @param message The message to output.

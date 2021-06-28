@@ -1,6 +1,6 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / index.browser
+[@iota/iota.js](../README.md) / index-browser
 
-# Module: index.browser
+# Module: index-browser
 
 ## Table of contents
 

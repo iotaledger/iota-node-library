@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/bech32Helper](../modules/utils_bech32helper.md) / Bech32Helper
+[@iota/iota.js](../README.md) / [utils/bech32Helper](../modules/utils_bech32helper.md) / Bech32Helper
 
 # Class: Bech32Helper
 
@@ -33,7 +33,7 @@ Convert address to bech32.
 
 ### BECH32\_DEFAULT\_HRP\_MAIN
 
-▪ `Static` **BECH32\_DEFAULT\_HRP\_MAIN**: `string` = "iota"
+▪ `Static` **BECH32\_DEFAULT\_HRP\_MAIN**: `string` = `"iota"`
 
 The default human readable part of the bech32 addresses for mainnet, currently 'iota'.
 
@@ -41,7 +41,7 @@ ___
 
 ### BECH32\_DEFAULT\_HRP\_TEST
 
-▪ `Static` **BECH32\_DEFAULT\_HRP\_TEST**: `string` = "atoi"
+▪ `Static` **BECH32\_DEFAULT\_HRP\_TEST**: `string` = `"atoi"`
 
 The default human readable part of the bech32 addresses for testnet, currently 'atoi'.
 

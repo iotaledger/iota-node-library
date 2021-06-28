@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IReceiptPayload
+[@iota/iota.js](../README.md) / models/IReceiptPayload
 
 # Module: models/IReceiptPayload
 

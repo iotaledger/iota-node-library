@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/extendedGroupElement](../modules/crypto_edwards25519_extendedgroupelement.md) / ExtendedGroupElement
+[@iota/iota.js](../README.md) / [crypto/edwards25519/extendedGroupElement](../modules/crypto_edwards25519_extendedgroupelement.md) / ExtendedGroupElement
 
 # Class: ExtendedGroupElement
 
@@ -43,16 +43,16 @@ Create a new instance of ExtendedGroupElement.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `X?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The X element. |
-| `Y?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The Y Element. |
-| `Z?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The Z Element. |
-| `T?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The T Element. |
+| `X?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The X element. |
+| `Y?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The Y Element. |
+| `Z?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The Z Element. |
+| `T?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The T Element. |
 
 ## Properties
 
 ### T
 
-• **T**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **T**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 The T Element.
 
@@ -60,7 +60,7 @@ ___
 
 ### X
 
-• **X**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **X**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 The X element.
 
@@ -68,7 +68,7 @@ ___
 
 ### Y
 
-• **Y**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **Y**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 The Y Element.
 
@@ -76,7 +76,7 @@ ___
 
 ### Z
 
-• **Z**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **Z**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 The Z Element.
 
@@ -93,7 +93,7 @@ ie if their difference is of small order.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `q` | [ExtendedGroupElement](crypto_edwards25519_extendedgroupelement.extendedgroupelement.md) | The extended group element. |
+| `q` | [`ExtendedGroupElement`](crypto_edwards25519_extendedgroupelement.extendedgroupelement.md) | The extended group element. |
 
 #### Returns
 
@@ -113,7 +113,7 @@ Double the element.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `cachedGroupElement` | [CompletedGroupElement](crypto_edwards25519_completedgroupelement.completedgroupelement.md) | The element to populate. |
+| `cachedGroupElement` | [`CompletedGroupElement`](crypto_edwards25519_completedgroupelement.completedgroupelement.md) | The element to populate. |
 
 #### Returns
 
@@ -192,7 +192,7 @@ Convert to a cached group element.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `cacheGroupElement` | [CachedGroupElement](crypto_edwards25519_cachedgroupelement.cachedgroupelement.md) | The element to populate. |
+| `cacheGroupElement` | [`CachedGroupElement`](crypto_edwards25519_cachedgroupelement.cachedgroupelement.md) | The element to populate. |
 
 #### Returns
 
@@ -210,7 +210,7 @@ Convert to a projective group element.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `projectiveGroupElement` | [ProjectiveGroupElement](crypto_edwards25519_projectivegroupelement.projectivegroupelement.md) | The element to populate. |
+| `projectiveGroupElement` | [`ProjectiveGroupElement`](crypto_edwards25519_projectivegroupelement.projectivegroupelement.md) | The element to populate. |
 
 #### Returns
 

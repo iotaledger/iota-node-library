@@ -1,8 +1,8 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Ed25519 } from "../crypto/ed25519";
-import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature";
-import { SMALL_TYPE_LENGTH } from "./common";
+import { Ed25519 } from "../crypto/ed25519.mjs";
+import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature.mjs";
+import { SMALL_TYPE_LENGTH } from "./common.mjs";
 /**
  * The minimum length of a signature binary representation.
  */

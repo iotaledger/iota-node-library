@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / addressTypes/ed25519Address
+[@iota/iota.js](../README.md) / addressTypes/ed25519Address
 
 # Module: addressTypes/ed25519Address
 

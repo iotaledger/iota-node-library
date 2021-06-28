@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IOutputResponse](../modules/models_api_ioutputresponse.md) / IOutputResponse
+[@iota/iota.js](../README.md) / [models/api/IOutputResponse](../modules/models_api_ioutputresponse.md) / IOutputResponse
 
 # Interface: IOutputResponse
 
@@ -36,7 +36,7 @@ ___
 
 ### output
 
-• **output**: [ISigLockedSingleOutput](models_isiglockedsingleoutput.isiglockedsingleoutput.md) \| [ISigLockedDustAllowanceOutput](models_isiglockeddustallowanceoutput.isiglockeddustallowanceoutput.md)
+• **output**: [`ISigLockedSingleOutput`](models_isiglockedsingleoutput.isiglockedsingleoutput.md) \| [`ISigLockedDustAllowanceOutput`](models_isiglockeddustallowanceoutput.isiglockeddustallowanceoutput.md)
 
 The output.
 

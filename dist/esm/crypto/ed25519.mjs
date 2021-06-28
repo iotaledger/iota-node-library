@@ -6,11 +6,11 @@
  * Which is an extension of https://github.com/golang/crypto/tree/master/ed25519.
  * Which in a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { Sha512 } from "../crypto/sha512";
-import { ArrayHelper } from "../utils/arrayHelper";
-import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement";
-import { ProjectiveGroupElement } from "./edwards25519/projectiveGroupElement";
-import { scalarMinimal, scalarMulAdd, scalarReduce } from "./edwards25519/scalar";
+import { Sha512 } from "../crypto/sha512.mjs";
+import { ArrayHelper } from "../utils/arrayHelper.mjs";
+import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement.mjs";
+import { ProjectiveGroupElement } from "./edwards25519/projectiveGroupElement.mjs";
+import { scalarMinimal, scalarMulAdd, scalarReduce } from "./edwards25519/scalar.mjs";
 /**
  * Implementation of Ed25519.
  */

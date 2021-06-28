@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/getUnspentAddress
+[@iota/iota.js](../README.md) / highLevel/getUnspentAddress
 
 # Module: highLevel/getUnspentAddress
 
@@ -12,7 +12,7 @@
 
 ### getUnspentAddress
 
-▸ **getUnspentAddress**(`client`, `seed`, `accountIndex`, `addressOptions?`): `Promise`<{} \| undefined\>
+▸ **getUnspentAddress**(`client`, `seed`, `accountIndex`, `addressOptions?`): `Promise`<{} \| `undefined`\>
 
 Get the first unspent address.
 
@@ -20,13 +20,13 @@ Get the first unspent address.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
-| `seed` | [ISeed](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `seed` | [`ISeed`](../interfaces/models_iseed.iseed.md) | The seed to use for address generation. |
 | `accountIndex` | `number` | The account index in the wallet. |
 | `addressOptions?` | `Object` | Optional address configuration for balance address lookups. |
 
 #### Returns
 
-`Promise`<{} \| undefined\>
+`Promise`<{} \| `undefined`\>
 
 The first unspent address.

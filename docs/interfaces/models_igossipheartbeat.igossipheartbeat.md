@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IGossipHeartbeat](../modules/models_igossipheartbeat.md) / IGossipHeartbeat
+[@iota/iota.js](../README.md) / [models/IGossipHeartbeat](../modules/models_igossipheartbeat.md) / IGossipHeartbeat
 
 # Interface: IGossipHeartbeat
 

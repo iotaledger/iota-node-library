@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/preComputedGroupElement](../modules/crypto_edwards25519_precomputedgroupelement.md) / PreComputedGroupElement
+[@iota/iota.js](../README.md) / [crypto/edwards25519/preComputedGroupElement](../modules/crypto_edwards25519_precomputedgroupelement.md) / PreComputedGroupElement
 
 # Class: PreComputedGroupElement
 
@@ -38,15 +38,15 @@ Create a new instance of PreComputedGroupElement.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `yPlusX?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | Y + X Element. |
-| `yMinusX?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | Y - X Element. |
-| `xy2d?` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | XY2d Element. |
+| `yPlusX?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | Y + X Element. |
+| `yMinusX?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | Y - X Element. |
+| `xy2d?` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | XY2d Element. |
 
 ## Properties
 
 ### xy2d
 
-• **xy2d**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **xy2d**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 X Y 2 d Element.
 
@@ -54,7 +54,7 @@ ___
 
 ### yMinusX
 
-• **yMinusX**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **yMinusX**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 Y - X Element.
 
@@ -62,7 +62,7 @@ ___
 
 ### yPlusX
 
-• **yPlusX**: [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+• **yPlusX**: [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 Y + X Element.
 
@@ -78,7 +78,7 @@ CMove the pre computed element.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `u` | [PreComputedGroupElement](crypto_edwards25519_precomputedgroupelement.precomputedgroupelement.md) | The u. |
+| `u` | [`PreComputedGroupElement`](crypto_edwards25519_precomputedgroupelement.precomputedgroupelement.md) | The u. |
 | `b` | `number` | The b. |
 
 #### Returns

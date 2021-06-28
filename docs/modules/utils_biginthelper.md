@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/bigIntHelper
+[@iota/iota.js](../README.md) / utils/bigIntHelper
 
 # Module: utils/bigIntHelper
 

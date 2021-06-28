@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [clients/clientError](../modules/clients_clienterror.md) / ClientError
+[@iota/iota.js](../README.md) / [clients/clientError](../modules/clients_clienterror.md) / ClientError
 
 # Class: ClientError
 
@@ -10,7 +10,7 @@ Class to represent errors from Client.
 
 - `Error`
 
-  ↳ **ClientError**
+  ↳ **`ClientError`**
 
 ## Table of contents
 

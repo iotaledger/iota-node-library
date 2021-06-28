@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/arrayHelper](../modules/utils_arrayhelper.md) / ArrayHelper
+[@iota/iota.js](../README.md) / [utils/arrayHelper](../modules/utils_arrayhelper.md) / ArrayHelper
 
 # Class: ArrayHelper
 
@@ -34,8 +34,8 @@ Are the two array equals.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `array1` | `undefined` \| `ArrayLike`<unknown\> | The first array. |
-| `array2` | `undefined` \| `ArrayLike`<unknown\> | The second array. |
+| `array1` | `undefined` \| `ArrayLike`<`unknown`\> | The first array. |
+| `array2` | `undefined` \| `ArrayLike`<`unknown`\> | The second array. |
 
 #### Returns
 

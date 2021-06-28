@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/conflictReason](../modules/models_conflictreason.md) / ConflictReason
+[@iota/iota.js](../README.md) / [models/conflictReason](../modules/models_conflictreason.md) / ConflictReason
 
 # Enumeration: ConflictReason
 
@@ -23,7 +23,7 @@ Reason for message conflicts.
 
 ### inputOutputSumMismatch
 
-• **inputOutputSumMismatch** = 4
+• **inputOutputSumMismatch** = `4`
 
 The sum of the inputs and output values does not match.
 
@@ -31,7 +31,7 @@ ___
 
 ### inputUTXOAlreadySpent
 
-• **inputUTXOAlreadySpent** = 1
+• **inputUTXOAlreadySpent** = `1`
 
 The referenced UTXO was already spent.
 
@@ -39,7 +39,7 @@ ___
 
 ### inputUTXOAlreadySpentInThisMilestone
 
-• **inputUTXOAlreadySpentInThisMilestone** = 2
+• **inputUTXOAlreadySpentInThisMilestone** = `2`
 
 The referenced UTXO was already spent while confirming this milestone.
 
@@ -47,7 +47,7 @@ ___
 
 ### inputUTXONotFound
 
-• **inputUTXONotFound** = 3
+• **inputUTXONotFound** = `3`
 
 The referenced UTXO cannot be found.
 
@@ -55,7 +55,7 @@ ___
 
 ### invalidDustAllowance
 
-• **invalidDustAllowance** = 6
+• **invalidDustAllowance** = `6`
 
 The dust allowance for the address is invalid.
 
@@ -63,7 +63,7 @@ ___
 
 ### invalidSignature
 
-• **invalidSignature** = 5
+• **invalidSignature** = `5`
 
 The unlock block signature is invalid.
 
@@ -71,7 +71,7 @@ ___
 
 ### none
 
-• **none** = 0
+• **none** = `0`
 
 The message has no conflict.
 
@@ -79,6 +79,6 @@ ___
 
 ### semanticValidationFailed
 
-• **semanticValidationFailed** = 255
+• **semanticValidationFailed** = `255`
 
 The semantic validation failed.

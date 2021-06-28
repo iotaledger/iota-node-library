@@ -2,8 +2,8 @@
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
 /* eslint-disable unicorn/prefer-math-trunc */
-import { HmacSha256 } from "./hmacSha256";
-import { HmacSha512 } from "./hmacSha512";
+import { HmacSha256 } from "./hmacSha256.mjs";
+import { HmacSha512 } from "./hmacSha512.mjs";
 /**
  * Implementation of the password based key derivation function 2.
  */

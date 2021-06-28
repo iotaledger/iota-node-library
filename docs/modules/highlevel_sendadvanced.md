@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/sendAdvanced
+[@iota/iota.js](../README.md) / highLevel/sendAdvanced
 
 # Module: highLevel/sendAdvanced
 
@@ -13,7 +13,7 @@
 
 ### buildTransactionPayload
 
-▸ **buildTransactionPayload**(`inputsAndSignatureKeyPairs`, `outputs`, `indexation?`): [ITransactionPayload](../interfaces/models_itransactionpayload.itransactionpayload.md)
+▸ **buildTransactionPayload**(`inputsAndSignatureKeyPairs`, `outputs`, `indexation?`): [`ITransactionPayload`](../interfaces/models_itransactionpayload.itransactionpayload.md)
 
 Build a transaction payload.
 
@@ -27,7 +27,7 @@ Build a transaction payload.
 
 #### Returns
 
-[ITransactionPayload](../interfaces/models_itransactionpayload.itransactionpayload.md)
+[`ITransactionPayload`](../interfaces/models_itransactionpayload.itransactionpayload.md)
 
 The transaction payload.
 
@@ -43,7 +43,7 @@ Send a transfer from the balance on the seed.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to send the transfer with. |
 | `inputsAndSignatureKeyPairs` | {}[] | The inputs with the signature key pairs needed to sign transfers. |
 | `outputs` | {}[] | The outputs to send. |
 | `indexation?` | `Object` | Optional indexation data to associate with the transaction. |

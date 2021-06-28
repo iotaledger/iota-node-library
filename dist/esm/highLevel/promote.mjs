@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { MAX_NUMBER_PARENTS } from "../binary/message";
-import { SingleNodeClient } from "../clients/singleNodeClient";
+import { MAX_NUMBER_PARENTS } from "../binary/message.mjs";
+import { SingleNodeClient } from "../clients/singleNodeClient.mjs";
 /**
  * Promote an existing message.
  * @param client The clientor node endpoint to perform the promote with.

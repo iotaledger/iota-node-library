@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ISignatureUnlockBlock](../modules/models_isignatureunlockblock.md) / ISignatureUnlockBlock
+[@iota/iota.js](../README.md) / [models/ISignatureUnlockBlock](../modules/models_isignatureunlockblock.md) / ISignatureUnlockBlock
 
 # Interface: ISignatureUnlockBlock
 
@@ -8,9 +8,9 @@ Signature unlock block.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``0``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``0``\>
 
-  ↳ **ISignatureUnlockBlock**
+  ↳ **`ISignatureUnlockBlock`**
 
 ## Table of contents
 
@@ -23,7 +23,7 @@ Signature unlock block.
 
 ### signature
 
-• **signature**: [IEd25519Signature](models_ied25519signature.ied25519signature.md)
+• **signature**: [`IEd25519Signature`](models_ied25519signature.ied25519signature.md)
 
 The signature.
 

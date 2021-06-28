@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ISeed
+[@iota/iota.js](../README.md) / models/ISeed
 
 # Module: models/ISeed
 

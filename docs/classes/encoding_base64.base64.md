@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [encoding/base64](../modules/encoding_base64.md) / Base64
+[@iota/iota.js](../README.md) / [encoding/base64](../modules/encoding_base64.md) / Base64
 
 # Class: Base64
 

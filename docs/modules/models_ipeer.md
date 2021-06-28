@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IPeer
+[@iota/iota.js](../README.md) / models/IPeer
 
 # Module: models/IPeer
 

@@ -4,7 +4,7 @@
 // Implementation derived from chacha-ref.c version 20080118
 // See for details: http://cr.yp.to/chacha/chacha-20080128.pdf
 // https://www.ietf.org/rfc/rfc8439.html
-import { BitHelper } from "../utils/bitHelper";
+import { BitHelper } from "../utils/bitHelper.mjs";
 /**
  * Implementation of the ChaCha29 cipher.
  */

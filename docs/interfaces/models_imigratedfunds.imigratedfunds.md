@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IMigratedFunds](../modules/models_imigratedfunds.md) / IMigratedFunds
+[@iota/iota.js](../README.md) / [models/IMigratedFunds](../modules/models_imigratedfunds.md) / IMigratedFunds
 
 # Interface: IMigratedFunds
 
@@ -18,7 +18,7 @@ The migrated funds for receipts.
 
 ### address
 
-• **address**: [IEd25519Address](models_ied25519address.ied25519address.md)
+• **address**: [`IEd25519Address`](models_ied25519address.ied25519address.md)
 
 The target address of the migrated funds.
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IChildrenResponse](../modules/models_api_ichildrenresponse.md) / IChildrenResponse
+[@iota/iota.js](../README.md) / [models/api/IChildrenResponse](../modules/models_api_ichildrenresponse.md) / IChildrenResponse
 
 # Interface: IChildrenResponse
 

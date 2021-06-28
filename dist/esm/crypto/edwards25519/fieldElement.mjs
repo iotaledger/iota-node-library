@@ -6,8 +6,8 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which is in turn a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { BigIntHelper } from "../../utils/bigIntHelper";
-import { BIG_1_SHIFTL_24, BIG_1_SHIFTL_25, BIG_38, BIG_8388607, BIG_ARR } from "./bigIntCommon";
+import { BigIntHelper } from "../../utils/bigIntHelper.mjs";
+import { BIG_1_SHIFTL_24, BIG_1_SHIFTL_25, BIG_38, BIG_8388607, BIG_ARR } from "./bigIntCommon.mjs";
 /**
  * Class for field element operations.
  * FieldElement represents an element of the field GF(2^255 - 19).  An element

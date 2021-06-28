@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITreasuryTransactionPayload](../modules/models_itreasurytransactionpayload.md) / ITreasuryTransactionPayload
+[@iota/iota.js](../README.md) / [models/ITreasuryTransactionPayload](../modules/models_itreasurytransactionpayload.md) / ITreasuryTransactionPayload
 
 # Interface: ITreasuryTransactionPayload
 
@@ -8,9 +8,9 @@ Receipt payload.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``4``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``4``\>
 
-  ↳ **ITreasuryTransactionPayload**
+  ↳ **`ITreasuryTransactionPayload`**
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ Receipt payload.
 
 ### input
 
-• **input**: [ITreasuryInput](models_itreasuryinput.itreasuryinput.md)
+• **input**: [`ITreasuryInput`](models_itreasuryinput.itreasuryinput.md)
 
 The input of this transaction.
 
@@ -32,7 +32,7 @@ ___
 
 ### output
 
-• **output**: [ITreasuryOutput](models_itreasuryoutput.itreasuryoutput.md)
+• **output**: [`ITreasuryOutput`](models_itreasuryoutput.itreasuryoutput.md)
 
 The output of this transaction.
 

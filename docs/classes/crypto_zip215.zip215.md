@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/zip215](../modules/crypto_zip215.md) / Zip215
+[@iota/iota.js](../README.md) / [crypto/zip215](../modules/crypto_zip215.md) / Zip215
 
 # Class: Zip215
 

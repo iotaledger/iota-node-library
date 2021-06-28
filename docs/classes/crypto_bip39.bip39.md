@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/bip39](../modules/crypto_bip39.md) / Bip39
+[@iota/iota.js](../README.md) / [crypto/bip39](../modules/crypto_bip39.md) / Bip39
 
 # Class: Bip39
 
@@ -101,8 +101,8 @@ Convert a mnemonic to a seed.
 | :------ | :------ | :------ | :------ |
 | `mnemonic` | `string` | `undefined` | The mnemonic to convert. |
 | `password?` | `string` | `undefined` | The password to apply to the seed generation. |
-| `iterations` | `number` | 2048 | The number of iterations to perform on the password function, defaults to 2048. |
-| `keyLength` | `number` | 64 | The size of the key length to generate, defaults to 64. |
+| `iterations` | `number` | `2048` | The number of iterations to perform on the password function, defaults to 2048. |
+| `keyLength` | `number` | `64` | The size of the key length to generate, defaults to 64. |
 
 #### Returns
 
@@ -122,7 +122,7 @@ Generate a random mnemonic.
 
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
-| `length` | `number` | 256 | The length of the mnemonic to generate, defaults to 256. |
+| `length` | `number` | `256` | The length of the mnemonic to generate, defaults to 256. |
 
 #### Returns
 
@@ -143,7 +143,7 @@ Set the wordlist and joining character.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `wordlistData` | `string`[] | `undefined` | Array of words. |
-| `joiningChar` | `string` | " " | The character to join the words with. |
+| `joiningChar` | `string` | `" "` | The character to join the words with. |
 
 #### Returns
 

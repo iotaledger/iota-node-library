@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/hmacSha512](../modules/crypto_hmacsha512.md) / HmacSha512
+[@iota/iota.js](../README.md) / [crypto/hmacSha512](../modules/crypto_hmacsha512.md) / HmacSha512
 
 # Class: HmacSha512
 
@@ -32,7 +32,7 @@ Create a new instance of HmacSha512.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `key` | `Uint8Array` | `undefined` | The key for the hmac. |
-| `bits` | `number` | 512 | The number of bits. |
+| `bits` | `number` | `512` | The number of bits. |
 
 ## Methods
 
@@ -52,7 +52,7 @@ ___
 
 ### update
 
-▸ **update**(`message`): [HmacSha512](crypto_hmacsha512.hmacsha512.md)
+▸ **update**(`message`): [`HmacSha512`](crypto_hmacsha512.hmacsha512.md)
 
 Update the hash with the data.
 
@@ -64,7 +64,7 @@ Update the hash with the data.
 
 #### Returns
 
-[HmacSha512](crypto_hmacsha512.hmacsha512.md)
+[`HmacSha512`](crypto_hmacsha512.hmacsha512.md)
 
 The instance for chaining.
 

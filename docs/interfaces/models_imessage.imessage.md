@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IMessage](../modules/models_imessage.md) / IMessage
+[@iota/iota.js](../README.md) / [models/IMessage](../modules/models_imessage.md) / IMessage
 
 # Interface: IMessage
 
@@ -43,6 +43,6 @@ ___
 
 ### payload
 
-• `Optional` **payload**: [ITransactionPayload](models_itransactionpayload.itransactionpayload.md) \| [IMilestonePayload](models_imilestonepayload.imilestonepayload.md) \| [IIndexationPayload](models_iindexationpayload.iindexationpayload.md)
+• `Optional` **payload**: [`ITransactionPayload`](models_itransactionpayload.itransactionpayload.md) \| [`IMilestonePayload`](models_imilestonepayload.imilestonepayload.md) \| [`IIndexationPayload`](models_iindexationpayload.iindexationpayload.md)
 
 The payload contents.

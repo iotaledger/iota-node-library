@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [clients/singleNodeClientOptions](../modules/clients_singlenodeclientoptions.md) / SingleNodeClientOptions
+[@iota/iota.js](../README.md) / [clients/singleNodeClientOptions](../modules/clients_singlenodeclientoptions.md) / SingleNodeClientOptions
 
 # Interface: SingleNodeClientOptions
 
@@ -49,7 +49,7 @@ ___
 
 ### powProvider
 
-• `Optional` **powProvider**: [IPowProvider](models_ipowprovider.ipowprovider.md)
+• `Optional` **powProvider**: [`IPowProvider`](models_ipowprovider.ipowprovider.md)
 
 Use a custom pow provider instead of the one on the node.
 

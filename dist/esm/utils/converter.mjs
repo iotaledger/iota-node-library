@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
-import { Base64 } from "../encoding/base64";
+import { Base64 } from "../encoding/base64.mjs";
 /**
  * Convert arrays to and from different formats.
  */

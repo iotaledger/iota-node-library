@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/ISigLockedSingleOutput
+[@iota/iota.js](../README.md) / models/ISigLockedSingleOutput
 
 # Module: models/ISigLockedSingleOutput
 

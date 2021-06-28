@@ -1,6 +1,6 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / index.node
+[@iota/iota.js](../README.md) / index-node
 
-# Module: index.node
+# Module: index-node
 
 ## Table of contents
 

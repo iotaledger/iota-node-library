@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/api/IAddressOutputsResponse](../modules/models_api_iaddressoutputsresponse.md) / IAddressOutputsResponse
+[@iota/iota.js](../README.md) / [models/api/IAddressOutputsResponse](../modules/models_api_iaddressoutputsresponse.md) / IAddressOutputsResponse
 
 # Interface: IAddressOutputsResponse
 

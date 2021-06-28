@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IGossipMetrics](../modules/models_igossipmetrics.md) / IGossipMetrics
+[@iota/iota.js](../README.md) / [models/IGossipMetrics](../modules/models_igossipmetrics.md) / IGossipMetrics
 
 # Interface: IGossipMetrics
 

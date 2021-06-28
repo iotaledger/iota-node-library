@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IPeer](../modules/models_ipeer.md) / IPeer
+[@iota/iota.js](../README.md) / [models/IPeer](../modules/models_ipeer.md) / IPeer
 
 # Interface: IPeer
 
@@ -45,8 +45,8 @@ Gossip metrics for the peer.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `heartbeat?` | [IGossipHeartbeat](models_igossipheartbeat.igossipheartbeat.md) | The peer heartbeat. |
-| `metrics` | [IGossipMetrics](models_igossipmetrics.igossipmetrics.md) | The peer metrics. |
+| `heartbeat?` | [`IGossipHeartbeat`](models_igossipheartbeat.igossipheartbeat.md) | The peer heartbeat. |
+| `metrics` | [`IGossipMetrics`](models_igossipmetrics.igossipmetrics.md) | The peer metrics. |
 
 ___
 

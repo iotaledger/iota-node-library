@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IPowProvider](../modules/models_ipowprovider.md) / IPowProvider
+[@iota/iota.js](../README.md) / [models/IPowProvider](../modules/models_ipowprovider.md) / IPowProvider
 
 # Interface: IPowProvider
 
@@ -8,7 +8,7 @@ Perform the POW on a message.
 
 ## Implemented by
 
-- [LocalPowProvider](../classes/pow_localpowprovider.localpowprovider.md)
+- [`LocalPowProvider`](../classes/pow_localpowprovider.localpowprovider.md)
 
 ## Table of contents
 
@@ -20,7 +20,7 @@ Perform the POW on a message.
 
 ### pow
 
-▸ **pow**(`message`, `targetScore`): `Promise`<bigint\>
+▸ **pow**(`message`, `targetScore`): `Promise`<`bigint`\>
 
 Perform pow on the message and return the nonce of at least targetScore.
 
@@ -33,6 +33,6 @@ Perform pow on the message and return the nonce of at least targetScore.
 
 #### Returns
 
-`Promise`<bigint\>
+`Promise`<`bigint`\>
 
 The nonce.

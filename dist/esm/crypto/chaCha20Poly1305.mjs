@@ -2,9 +2,9 @@
 // SPDX-License-Identifier: Apache-2.0
 /* eslint-disable no-bitwise */
 // https://www.ietf.org/rfc/rfc8439.html
-import { BitHelper } from "../utils/bitHelper";
-import { ChaCha20 } from "./chaCha20";
-import { Poly1305 } from "./poly1305";
+import { BitHelper } from "../utils/bitHelper.mjs";
+import { ChaCha20 } from "./chaCha20.mjs";
+import { Poly1305 } from "./poly1305.mjs";
 /**
  * Implementation of the ChaCha20Poly1305 cipher.
  */

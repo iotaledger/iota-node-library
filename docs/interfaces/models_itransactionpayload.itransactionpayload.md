@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ITransactionPayload](../modules/models_itransactionpayload.md) / ITransactionPayload
+[@iota/iota.js](../README.md) / [models/ITransactionPayload](../modules/models_itransactionpayload.md) / ITransactionPayload
 
 # Interface: ITransactionPayload
 
@@ -8,9 +8,9 @@ Transaction payload.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``0``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``0``\>
 
-  ↳ **ITransactionPayload**
+  ↳ **`ITransactionPayload`**
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ Transaction payload.
 
 ### essence
 
-• **essence**: [ITransactionEssence](models_itransactionessence.itransactionessence.md)
+• **essence**: [`ITransactionEssence`](models_itransactionessence.itransactionessence.md)
 
 The index name.
 
@@ -44,6 +44,6 @@ ___
 
 ### unlockBlocks
 
-• **unlockBlocks**: ([ISignatureUnlockBlock](models_isignatureunlockblock.isignatureunlockblock.md) \| [IReferenceUnlockBlock](models_ireferenceunlockblock.ireferenceunlockblock.md))[]
+• **unlockBlocks**: ([`ISignatureUnlockBlock`](models_isignatureunlockblock.isignatureunlockblock.md) \| [`IReferenceUnlockBlock`](models_ireferenceunlockblock.ireferenceunlockblock.md))[]
 
 The unlock blocks.

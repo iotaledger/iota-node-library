@@ -6,9 +6,9 @@
  * which is an extension of https://github.com/golang/crypto/tree/master/ed25519
  * which in a port of the “ref10” implementation of ed25519 from SUPERCOP.
  */
-import { BigIntHelper } from "../../utils/bigIntHelper";
-import { BIG_ARR, BIG_136657, BIG_1_SHIFTL_20, BIG_2097151, BIG_470296, BIG_654183, BIG_666643, BIG_683901, BIG_997805 } from "./bigIntCommon";
-import { CONST_ORDER } from "./const";
+import { BigIntHelper } from "../../utils/bigIntHelper.mjs";
+import { BIG_ARR, BIG_136657, BIG_1_SHIFTL_20, BIG_2097151, BIG_470296, BIG_654183, BIG_666643, BIG_683901, BIG_997805 } from "./bigIntCommon.mjs";
+import { CONST_ORDER } from "./const.mjs";
 /**
  * The scalars are GF(2^252 + 27742317777372353535851937790883648493).
  *

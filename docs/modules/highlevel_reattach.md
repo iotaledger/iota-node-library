@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/reattach
+[@iota/iota.js](../README.md) / highLevel/reattach
 
 # Module: highLevel/reattach
 
@@ -20,7 +20,7 @@ Reattach an existing message.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to perform the reattach with. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to perform the reattach with. |
 | `messageId` | `string` | The message to reattach. |
 
 #### Returns

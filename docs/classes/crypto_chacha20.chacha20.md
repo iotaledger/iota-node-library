@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/chaCha20](../modules/crypto_chacha20.md) / ChaCha20
+[@iota/iota.js](../README.md) / [crypto/chaCha20](../modules/crypto_chacha20.md) / ChaCha20
 
 # Class: ChaCha20
 
@@ -32,7 +32,7 @@ Create a new instance of ChaCha20.
 | :------ | :------ | :------ | :------ |
 | `key` | `Uint8Array` | `undefined` | The key. |
 | `nonce` | `Uint8Array` | `undefined` | The nonce. |
-| `counter` | `number` | 0 | Counter. |
+| `counter` | `number` | `0` | Counter. |
 
 ## Methods
 

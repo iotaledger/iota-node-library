@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IMilestonePayload](../modules/models_imilestonepayload.md) / IMilestonePayload
+[@iota/iota.js](../README.md) / [models/IMilestonePayload](../modules/models_imilestonepayload.md) / IMilestonePayload
 
 # Interface: IMilestonePayload
 
@@ -8,9 +8,9 @@ Milestone payload.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``1``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``1``\>
 
-  ↳ **IMilestonePayload**
+  ↳ **`IMilestonePayload`**
 
 ## Table of contents
 
@@ -79,7 +79,7 @@ ___
 
 ### receipt
 
-• `Optional` **receipt**: [IReceiptPayload](models_ireceiptpayload.ireceiptpayload.md)
+• `Optional` **receipt**: [`IReceiptPayload`](models_ireceiptpayload.ireceiptpayload.md)
 
 Receipt payload.
 

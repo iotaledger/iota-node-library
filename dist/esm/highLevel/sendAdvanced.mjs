@@ -1,23 +1,23 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { serializeInput } from "../binary/input";
-import { serializeOutput } from "../binary/output";
-import { MAX_INDEXATION_KEY_LENGTH, MIN_INDEXATION_KEY_LENGTH } from "../binary/payload";
-import { serializeTransactionEssence } from "../binary/transaction";
-import { SingleNodeClient } from "../clients/singleNodeClient";
-import { Blake2b } from "../crypto/blake2b";
-import { Ed25519 } from "../crypto/ed25519";
-import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address";
-import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature";
-import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload";
-import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock";
-import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput";
-import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput";
-import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock";
-import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence";
-import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload";
-import { Converter } from "../utils/converter";
-import { WriteStream } from "../utils/writeStream";
+import { serializeInput } from "../binary/input.mjs";
+import { serializeOutput } from "../binary/output.mjs";
+import { MAX_INDEXATION_KEY_LENGTH, MIN_INDEXATION_KEY_LENGTH } from "../binary/payload.mjs";
+import { serializeTransactionEssence } from "../binary/transaction.mjs";
+import { SingleNodeClient } from "../clients/singleNodeClient.mjs";
+import { Blake2b } from "../crypto/blake2b.mjs";
+import { Ed25519 } from "../crypto/ed25519.mjs";
+import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address.mjs";
+import { ED25519_SIGNATURE_TYPE } from "../models/IEd25519Signature.mjs";
+import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload.mjs";
+import { REFERENCE_UNLOCK_BLOCK_TYPE } from "../models/IReferenceUnlockBlock.mjs";
+import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput.mjs";
+import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput.mjs";
+import { SIGNATURE_UNLOCK_BLOCK_TYPE } from "../models/ISignatureUnlockBlock.mjs";
+import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence.mjs";
+import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload.mjs";
+import { Converter } from "../utils/converter.mjs";
+import { WriteStream } from "../utils/writeStream.mjs";
 /**
  * Send a transfer from the balance on the seed.
  * @param client The client or node endpoint to send the transfer with.

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/message
+[@iota/iota.js](../README.md) / binary/message
 
 # Module: binary/message
 
@@ -19,7 +19,7 @@
 
 ### MAX\_MESSAGE\_LENGTH
 
-• `Const` **MAX\_MESSAGE\_LENGTH**: `number` = 32768
+• `Const` **MAX\_MESSAGE\_LENGTH**: `number` = `32768`
 
 The maximum length of a message.
 
@@ -27,7 +27,7 @@ ___
 
 ### MAX\_NUMBER\_PARENTS
 
-• `Const` **MAX\_NUMBER\_PARENTS**: `number` = 8
+• `Const` **MAX\_NUMBER\_PARENTS**: `number` = `8`
 
 The maximum number of parents.
 
@@ -35,7 +35,7 @@ ___
 
 ### MIN\_NUMBER\_PARENTS
 
-• `Const` **MIN\_NUMBER\_PARENTS**: `number` = 1
+• `Const` **MIN\_NUMBER\_PARENTS**: `number` = `1`
 
 The minimum number of parents.
 
@@ -43,7 +43,7 @@ The minimum number of parents.
 
 ### deserializeMessage
 
-▸ **deserializeMessage**(`readStream`): [IMessage](../interfaces/models_imessage.imessage.md)
+▸ **deserializeMessage**(`readStream`): [`IMessage`](../interfaces/models_imessage.imessage.md)
 
 Deserialize the message from binary.
 
@@ -51,11 +51,11 @@ Deserialize the message from binary.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `readStream` | [ReadStream](../classes/utils_readstream.readstream.md) | The message to deserialize. |
+| `readStream` | [`ReadStream`](../classes/utils_readstream.readstream.md) | The message to deserialize. |
 
 #### Returns
 
-[IMessage](../interfaces/models_imessage.imessage.md)
+[`IMessage`](../interfaces/models_imessage.imessage.md)
 
 The deserialized message.
 
@@ -71,8 +71,8 @@ Serialize the message essence to binary.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `writeStream` | [WriteStream](../classes/utils_writestream.writestream.md) | The stream to write the data to. |
-| `object` | [IMessage](../interfaces/models_imessage.imessage.md) | The object to serialize. |
+| `writeStream` | [`WriteStream`](../classes/utils_writestream.writestream.md) | The stream to write the data to. |
+| `object` | [`IMessage`](../interfaces/models_imessage.imessage.md) | The object to serialize. |
 
 #### Returns
 

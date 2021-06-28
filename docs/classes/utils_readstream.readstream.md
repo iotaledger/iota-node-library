@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/readStream](../modules/utils_readstream.md) / ReadStream
+[@iota/iota.js](../README.md) / [utils/readStream](../modules/utils_readstream.md) / ReadStream
 
 # Class: ReadStream
 
@@ -40,7 +40,7 @@ Create a new instance of ReadStream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `storage` | `Uint8Array` | `undefined` | The data to access. |
-| `readStartIndex` | `number` | 0 | The index to start the reading from. |
+| `readStartIndex` | `number` | `0` | The index to start the reading from. |
 
 ## Methods
 
@@ -103,7 +103,7 @@ Read a boolean from the stream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -124,7 +124,7 @@ Read a byte from the stream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -146,7 +146,7 @@ Read an array of byte from the stream.
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
 | `length` | `number` | `undefined` | The length of the array to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -168,7 +168,7 @@ Read fixed length as hex.
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
 | `length` | `number` | `undefined` | The length of the data to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -189,7 +189,7 @@ Read a UInt16 from the stream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -210,7 +210,7 @@ Read a UInt32 from the stream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 
@@ -231,7 +231,7 @@ Read a UInt64 from the stream.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `name` | `string` | `undefined` | The name of the data we are trying to read. |
-| `moveIndex` | `boolean` | true | Move the index pointer on. |
+| `moveIndex` | `boolean` | `true` | Move the index pointer on. |
 
 #### Returns
 

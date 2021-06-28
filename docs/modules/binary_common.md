@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / binary/common
+[@iota/iota.js](../README.md) / binary/common
 
 # Module: binary/common
 
@@ -30,7 +30,7 @@ ___
 
 ### BYTE\_SIZE
 
-• `Const` **BYTE\_SIZE**: `number` = 1
+• `Const` **BYTE\_SIZE**: `number` = `1`
 
 Byte length for a byte field.
 
@@ -86,7 +86,7 @@ ___
 
 ### UINT16\_SIZE
 
-• `Const` **UINT16\_SIZE**: `number` = 2
+• `Const` **UINT16\_SIZE**: `number` = `2`
 
 Byte length for a uint16 field.
 
@@ -94,7 +94,7 @@ ___
 
 ### UINT32\_SIZE
 
-• `Const` **UINT32\_SIZE**: `number` = 4
+• `Const` **UINT32\_SIZE**: `number` = `4`
 
 Byte length for a uint32 field.
 
@@ -102,6 +102,6 @@ ___
 
 ### UINT64\_SIZE
 
-• `Const` **UINT64\_SIZE**: `number` = 8
+• `Const` **UINT64\_SIZE**: `number` = `8`
 
 Byte length for a uint64 field.

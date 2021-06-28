@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/converter
+[@iota/iota.js](../README.md) / utils/converter
 
 # Module: utils/converter
 

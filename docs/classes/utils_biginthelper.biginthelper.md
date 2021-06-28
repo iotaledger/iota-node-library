@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/bigIntHelper](../modules/utils_biginthelper.md) / BigIntHelper
+[@iota/iota.js](../README.md) / [utils/bigIntHelper](../modules/utils_biginthelper.md) / BigIntHelper
 
 # Class: BigIntHelper
 

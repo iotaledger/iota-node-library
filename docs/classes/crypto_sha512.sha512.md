@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/sha512](../modules/crypto_sha512.md) / Sha512
+[@iota/iota.js](../README.md) / [crypto/sha512](../modules/crypto_sha512.md) / Sha512
 
 # Class: Sha512
 
@@ -44,7 +44,7 @@ Create a new instance of Sha512.
 
 ### SIZE\_224
 
-▪ `Static` **SIZE\_224**: `number` = 224
+▪ `Static` **SIZE\_224**: `number` = `224`
 
 Sha512 224.
 
@@ -52,7 +52,7 @@ ___
 
 ### SIZE\_256
 
-▪ `Static` **SIZE\_256**: `number` = 256
+▪ `Static` **SIZE\_256**: `number` = `256`
 
 Sha512 256.
 
@@ -60,7 +60,7 @@ ___
 
 ### SIZE\_384
 
-▪ `Static` **SIZE\_384**: `number` = 384
+▪ `Static` **SIZE\_384**: `number` = `384`
 
 Sha512 384.
 
@@ -68,7 +68,7 @@ ___
 
 ### SIZE\_512
 
-▪ `Static` **SIZE\_512**: `number` = 512
+▪ `Static` **SIZE\_512**: `number` = `512`
 
 Sha512 512.
 
@@ -90,7 +90,7 @@ ___
 
 ### update
 
-▸ **update**(`message`): [Sha512](crypto_sha512.sha512.md)
+▸ **update**(`message`): [`Sha512`](crypto_sha512.sha512.md)
 
 Update the hash with the data.
 
@@ -102,7 +102,7 @@ Update the hash with the data.
 
 #### Returns
 
-[Sha512](crypto_sha512.sha512.md)
+[`Sha512`](crypto_sha512.sha512.md)
 
 The instance for chaining.
 

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/chaCha20Poly1305](../modules/crypto_chacha20poly1305.md) / ChaCha20Poly1305
+[@iota/iota.js](../README.md) / [crypto/chaCha20Poly1305](../modules/crypto_chacha20poly1305.md) / ChaCha20Poly1305
 
 # Class: ChaCha20Poly1305
 
@@ -104,7 +104,7 @@ ___
 
 ### decryptor
 
-▸ `Static` **decryptor**(`key`, `nonce`): [ChaCha20Poly1305](crypto_chacha20poly1305.chacha20poly1305.md)
+▸ `Static` **decryptor**(`key`, `nonce`): [`ChaCha20Poly1305`](crypto_chacha20poly1305.chacha20poly1305.md)
 
 Create a ChaCha20Poly1305 decryptor.
 
@@ -117,7 +117,7 @@ Create a ChaCha20Poly1305 decryptor.
 
 #### Returns
 
-[ChaCha20Poly1305](crypto_chacha20poly1305.chacha20poly1305.md)
+[`ChaCha20Poly1305`](crypto_chacha20poly1305.chacha20poly1305.md)
 
 Decryptor instance of ChaCha20Poly1305.
 
@@ -125,7 +125,7 @@ ___
 
 ### encryptor
 
-▸ `Static` **encryptor**(`key`, `nonce`): [ChaCha20Poly1305](crypto_chacha20poly1305.chacha20poly1305.md)
+▸ `Static` **encryptor**(`key`, `nonce`): [`ChaCha20Poly1305`](crypto_chacha20poly1305.chacha20poly1305.md)
 
 Create a ChaCha20Poly1305 encryptor.
 
@@ -138,6 +138,6 @@ Create a ChaCha20Poly1305 encryptor.
 
 #### Returns
 
-[ChaCha20Poly1305](crypto_chacha20poly1305.chacha20poly1305.md)
+[`ChaCha20Poly1305`](crypto_chacha20poly1305.chacha20poly1305.md)
 
 Encryptor instance of ChaCha20Poly1305.

@@ -1,8 +1,8 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { TREASURY_INPUT_TYPE } from "../models/ITreasuryInput";
-import { UTXO_INPUT_TYPE } from "../models/IUTXOInput";
-import { SMALL_TYPE_LENGTH, TRANSACTION_ID_LENGTH, UINT16_SIZE } from "./common";
+import { TREASURY_INPUT_TYPE } from "../models/ITreasuryInput.mjs";
+import { UTXO_INPUT_TYPE } from "../models/IUTXOInput.mjs";
+import { SMALL_TYPE_LENGTH, TRANSACTION_ID_LENGTH, UINT16_SIZE } from "./common.mjs";
 /**
  * The minimum length of an input binary representation.
  */

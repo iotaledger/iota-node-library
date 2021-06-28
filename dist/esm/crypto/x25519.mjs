@@ -4,9 +4,9 @@
 /**
  * This is a TypeScript port of https://github.com/katzenpost/core/blob/master/crypto/extra25519/extra25519.go.
  */
-import { Sha512 } from "../crypto/sha512";
-import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement";
-import { FieldElement } from "./edwards25519/fieldElement";
+import { Sha512 } from "../crypto/sha512.mjs";
+import { ExtendedGroupElement } from "./edwards25519/extendedGroupElement.mjs";
+import { FieldElement } from "./edwards25519/fieldElement.mjs";
 /**
  * Implementation of X25519.
  */

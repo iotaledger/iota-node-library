@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/ISigLockedSingleOutput](../modules/models_isiglockedsingleoutput.md) / ISigLockedSingleOutput
+[@iota/iota.js](../README.md) / [models/ISigLockedSingleOutput](../modules/models_isiglockedsingleoutput.md) / ISigLockedSingleOutput
 
 # Interface: ISigLockedSingleOutput
 
@@ -8,9 +8,9 @@ Signature locked single output.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``0``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``0``\>
 
-  ↳ **ISigLockedSingleOutput**
+  ↳ **`ISigLockedSingleOutput`**
 
 ## Table of contents
 
@@ -24,7 +24,7 @@ Signature locked single output.
 
 ### address
 
-• **address**: [IEd25519Address](models_ied25519address.ied25519address.md)
+• **address**: [`IEd25519Address`](models_ied25519address.ied25519address.md)
 
 The address.
 

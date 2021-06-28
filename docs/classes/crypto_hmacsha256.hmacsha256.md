@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/hmacSha256](../modules/crypto_hmacsha256.md) / HmacSha256
+[@iota/iota.js](../README.md) / [crypto/hmacSha256](../modules/crypto_hmacsha256.md) / HmacSha256
 
 # Class: HmacSha256
 
@@ -32,7 +32,7 @@ Create a new instance of HmacSha256.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `key` | `Uint8Array` | `undefined` | The key for the hmac. |
-| `bits` | `number` | 256 | The number of bits. |
+| `bits` | `number` | `256` | The number of bits. |
 
 ## Methods
 
@@ -52,7 +52,7 @@ ___
 
 ### update
 
-▸ **update**(`message`): [HmacSha256](crypto_hmacsha256.hmacsha256.md)
+▸ **update**(`message`): [`HmacSha256`](crypto_hmacsha256.hmacsha256.md)
 
 Update the hash with the data.
 
@@ -64,7 +64,7 @@ Update the hash with the data.
 
 #### Returns
 
-[HmacSha256](crypto_hmacsha256.hmacsha256.md)
+[`HmacSha256`](crypto_hmacsha256.hmacsha256.md)
 
 The instance for chaining.
 

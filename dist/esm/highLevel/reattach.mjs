@@ -1,6 +1,6 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { SingleNodeClient } from "../clients/singleNodeClient";
+import { SingleNodeClient } from "../clients/singleNodeClient.mjs";
 /**
  * Reattach an existing message.
  * @param client The client or node endpoint to perform the reattach with.

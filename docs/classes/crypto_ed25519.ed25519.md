@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/ed25519](../modules/crypto_ed25519.md) / Ed25519
+[@iota/iota.js](../README.md) / [crypto/ed25519](../modules/crypto_ed25519.md) / Ed25519
 
 # Class: Ed25519
 
@@ -37,7 +37,7 @@ Implementation of Ed25519.
 
 ### PRIVATE\_KEY\_SIZE
 
-▪ `Static` **PRIVATE\_KEY\_SIZE**: `number` = 64
+▪ `Static` **PRIVATE\_KEY\_SIZE**: `number` = `64`
 
 PrivateKeySize is the size, in bytes, of private keys as used in this package.
 
@@ -45,7 +45,7 @@ ___
 
 ### PUBLIC\_KEY\_SIZE
 
-▪ `Static` **PUBLIC\_KEY\_SIZE**: `number` = 32
+▪ `Static` **PUBLIC\_KEY\_SIZE**: `number` = `32`
 
 PublicKeySize is the size, in bytes, of public keys as used in this package.
 
@@ -53,7 +53,7 @@ ___
 
 ### SEED\_SIZE
 
-▪ `Static` **SEED\_SIZE**: `number` = 32
+▪ `Static` **SEED\_SIZE**: `number` = `32`
 
 SeedSize is the size, in bytes, of private key seeds. These are the private key representations used by RFC 8032.
 
@@ -61,7 +61,7 @@ ___
 
 ### SIGNATURE\_SIZE
 
-▪ `Static` **SIGNATURE\_SIZE**: `number` = 64
+▪ `Static` **SIGNATURE\_SIZE**: `number` = `64`
 
 SignatureSize is the size, in bytes, of signatures generated and verified by this package.
 

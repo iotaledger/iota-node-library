@@ -1,10 +1,10 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput";
-import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput";
-import { TREASURY_OUTPUT_TYPE } from "../models/ITreasuryOutput";
-import { deserializeAddress, MIN_ADDRESS_LENGTH, MIN_ED25519_ADDRESS_LENGTH, serializeAddress } from "./address";
-import { SMALL_TYPE_LENGTH, UINT64_SIZE } from "./common";
+import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput.mjs";
+import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput.mjs";
+import { TREASURY_OUTPUT_TYPE } from "../models/ITreasuryOutput.mjs";
+import { deserializeAddress, MIN_ADDRESS_LENGTH, MIN_ED25519_ADDRESS_LENGTH, serializeAddress } from "./address.mjs";
+import { SMALL_TYPE_LENGTH, UINT64_SIZE } from "./common.mjs";
 /**
  * The minimum length of an output binary representation.
  */

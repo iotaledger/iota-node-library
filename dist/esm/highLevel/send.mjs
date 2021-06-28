@@ -1,14 +1,14 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Ed25519Address } from "../addressTypes/ed25519Address";
-import { SingleNodeClient } from "../clients/singleNodeClient";
-import { Bip32Path } from "../crypto/bip32Path";
-import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address";
-import { UTXO_INPUT_TYPE } from "../models/IUTXOInput";
-import { Bech32Helper } from "../utils/bech32Helper";
-import { Converter } from "../utils/converter";
-import { generateBip44Address } from "./addresses";
-import { sendAdvanced } from "./sendAdvanced";
+import { Ed25519Address } from "../addressTypes/ed25519Address.mjs";
+import { SingleNodeClient } from "../clients/singleNodeClient.mjs";
+import { Bip32Path } from "../crypto/bip32Path.mjs";
+import { ED25519_ADDRESS_TYPE } from "../models/IEd25519Address.mjs";
+import { UTXO_INPUT_TYPE } from "../models/IUTXOInput.mjs";
+import { Bech32Helper } from "../utils/bech32Helper.mjs";
+import { Converter } from "../utils/converter.mjs";
+import { generateBip44Address } from "./addresses.mjs";
+import { sendAdvanced } from "./sendAdvanced.mjs";
 /**
  * Send a transfer from the balance on the seed to a single output.
  * @param client The client or node endpoint to send the transfer with.

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IUTXOInput](../modules/models_iutxoinput.md) / IUTXOInput
+[@iota/iota.js](../README.md) / [models/IUTXOInput](../modules/models_iutxoinput.md) / IUTXOInput
 
 # Interface: IUTXOInput
 
@@ -8,9 +8,9 @@ UTXO Transaction Input.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``0``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``0``\>
 
-  ↳ **IUTXOInput**
+  ↳ **`IUTXOInput`**
 
 ## Table of contents
 

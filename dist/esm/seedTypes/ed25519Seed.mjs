@@ -1,6 +1,6 @@
-import { Bip39 } from "../crypto/bip39";
-import { Ed25519 } from "../crypto/ed25519";
-import { Slip0010 } from "../crypto/slip0010";
+import { Bip39 } from "../crypto/bip39.mjs";
+import { Ed25519 } from "../crypto/ed25519.mjs";
+import { Slip0010 } from "../crypto/slip0010.mjs";
 /**
  * The global type for the seed.
  */

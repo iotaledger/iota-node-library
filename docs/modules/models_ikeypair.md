@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / models/IKeyPair
+[@iota/iota.js](../README.md) / models/IKeyPair
 
 # Module: models/IKeyPair
 

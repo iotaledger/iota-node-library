@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/sha256](../modules/crypto_sha256.md) / Sha256
+[@iota/iota.js](../README.md) / [crypto/sha256](../modules/crypto_sha256.md) / Sha256
 
 # Class: Sha256
 
@@ -43,7 +43,7 @@ Create a new instance of Sha256.
 
 ### SIZE\_224
 
-▪ `Static` `Readonly` **SIZE\_224**: `number` = 224
+▪ `Static` `Readonly` **SIZE\_224**: `number` = `224`
 
 Sha256 224.
 
@@ -51,7 +51,7 @@ ___
 
 ### SIZE\_256
 
-▪ `Static` `Readonly` **SIZE\_256**: `number` = 256
+▪ `Static` `Readonly` **SIZE\_256**: `number` = `256`
 
 Sha256 256.
 
@@ -73,7 +73,7 @@ ___
 
 ### update
 
-▸ **update**(`message`): [Sha256](crypto_sha256.sha256.md)
+▸ **update**(`message`): [`Sha256`](crypto_sha256.sha256.md)
 
 Update the hash with the data.
 
@@ -85,7 +85,7 @@ Update the hash with the data.
 
 #### Returns
 
-[Sha256](crypto_sha256.sha256.md)
+[`Sha256`](crypto_sha256.sha256.md)
 
 The instance for chaining.
 

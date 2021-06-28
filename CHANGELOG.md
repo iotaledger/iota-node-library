@@ -3,6 +3,9 @@
 ## v1.5.8
 
 * Improve ESM Modules format
+* ESM distribution is located in dist/esm directory
+* Renamed dist/iota.js to dist/cjs/index-node.js
+* Renamed dist/iota.browser.js to dist/cjs/index-browser.js
 
 ## v1.5.7
 

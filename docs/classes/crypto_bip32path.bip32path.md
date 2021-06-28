@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/bip32Path](../modules/crypto_bip32path.md) / Bip32Path
+[@iota/iota.js](../README.md) / [crypto/bip32Path](../modules/crypto_bip32path.md) / Bip32Path
 
 # Class: Bip32Path
 
@@ -115,7 +115,7 @@ ___
 
 ### fromPath
 
-▸ `Static` **fromPath**(`bip32Path`): [Bip32Path](crypto_bip32path.bip32path.md)
+▸ `Static` **fromPath**(`bip32Path`): [`Bip32Path`](crypto_bip32path.bip32path.md)
 
 Construct a new path by cloning an existing one.
 
@@ -123,10 +123,10 @@ Construct a new path by cloning an existing one.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `bip32Path` | [Bip32Path](crypto_bip32path.bip32path.md) | The path to clone. |
+| `bip32Path` | [`Bip32Path`](crypto_bip32path.bip32path.md) | The path to clone. |
 
 #### Returns
 
-[Bip32Path](crypto_bip32path.bip32path.md)
+[`Bip32Path`](crypto_bip32path.bip32path.md)
 
 A new instance of Bip32Path.

@@ -1,6 +1,6 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Bip32Path } from "../crypto/bip32Path";
+import { Bip32Path } from "../crypto/bip32Path.mjs";
 export const IOTA_BIP44_BASE_PATH = "m/44'/4218'";
 /**
  * Generate a bip44 path based on all its parts.

@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/retry
+[@iota/iota.js](../README.md) / highLevel/retry
 
 # Module: highLevel/retry
 
@@ -20,7 +20,7 @@ Retry an existing message either by promoting or reattaching.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `client` | [IClient](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to perform the retry with. |
+| `client` | [`IClient`](../interfaces/models_iclient.iclient.md) \| `string` | The client or node endpoint to perform the retry with. |
 | `messageId` | `string` | The message to retry. |
 
 #### Returns

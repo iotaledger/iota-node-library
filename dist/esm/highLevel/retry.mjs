@@ -1,8 +1,8 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { SingleNodeClient } from "../clients/singleNodeClient";
-import { promote } from "./promote";
-import { reattach } from "./reattach";
+import { SingleNodeClient } from "../clients/singleNodeClient.mjs";
+import { promote } from "./promote.mjs";
+import { reattach } from "./reattach.mjs";
 /**
  * Retry an existing message either by promoting or reattaching.
  * @param client The client or node endpoint to perform the retry with.

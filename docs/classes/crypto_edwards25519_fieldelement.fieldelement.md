@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/edwards25519/fieldElement](../modules/crypto_edwards25519_fieldelement.md) / FieldElement
+[@iota/iota.js](../README.md) / [crypto/edwards25519/fieldElement](../modules/crypto_edwards25519_fieldelement.md) / FieldElement
 
 # Class: FieldElement
 
@@ -75,8 +75,8 @@ Add the elements and store in this.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `a` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The a element. |
-| `b` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The b element. |
+| `a` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The a element. |
+| `b` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The b element. |
 
 #### Returns
 
@@ -97,7 +97,7 @@ Preconditions: b in {0,1}.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `g` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The g element. |
+| `g` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The g element. |
 | `b` | `number` | The b value. |
 
 #### Returns
@@ -108,13 +108,13 @@ ___
 
 ### clone
 
-▸ **clone**(): [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+▸ **clone**(): [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 Clone the field element.
 
 #### Returns
 
-[FieldElement](crypto_edwards25519_fieldelement.fieldelement.md)
+[`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md)
 
 The clones element.
 
@@ -181,7 +181,7 @@ Postconditions:
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `f` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
+| `f` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
 
 #### Returns
 
@@ -201,7 +201,7 @@ Invert.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `z` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The elemnt to invert. |
+| `z` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The elemnt to invert. |
 
 #### Returns
 
@@ -273,8 +273,8 @@ With tighter constraints on inputs, can squeeze carries into: number.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `f` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
-| `g` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The g element. |
+| `f` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
+| `g` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The g element. |
 
 #### Returns
 
@@ -322,7 +322,7 @@ Perform the pow 22523 calculate.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `z` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The element to operate on. |
+| `z` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The element to operate on. |
 
 #### Returns
 
@@ -346,7 +346,7 @@ Postconditions:
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `f` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
+| `f` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
 
 #### Returns
 
@@ -373,7 +373,7 @@ See fe_mul.c for discussion of implementation strategy.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `f` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
+| `f` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The f element. |
 
 #### Returns
 
@@ -391,8 +391,8 @@ Subtract the elements and store in this.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `a` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The a element. |
-| `b` | [FieldElement](crypto_edwards25519_fieldelement.fieldelement.md) | The b element. |
+| `a` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The a element. |
+| `b` | [`FieldElement`](crypto_edwards25519_fieldelement.fieldelement.md) | The b element. |
 
 #### Returns
 

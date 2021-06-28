@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IKeyPair](../modules/models_ikeypair.md) / IKeyPair
+[@iota/iota.js](../README.md) / [models/IKeyPair](../modules/models_ikeypair.md) / IKeyPair
 
 # Interface: IKeyPair
 

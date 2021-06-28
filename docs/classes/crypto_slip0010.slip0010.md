@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [crypto/slip0010](../modules/crypto_slip0010.md) / Slip0010
+[@iota/iota.js](../README.md) / [crypto/slip0010](../modules/crypto_slip0010.md) / Slip0010
 
 # Class: Slip0010
 
@@ -38,7 +38,7 @@ Derive a key from the path.
 | Name | Type | Description |
 | :------ | :------ | :------ |
 | `seed` | `Uint8Array` | The seed. |
-| `path` | [Bip32Path](crypto_bip32path.bip32path.md) | The path. |
+| `path` | [`Bip32Path`](crypto_bip32path.bip32path.md) | The path. |
 
 #### Returns
 
@@ -79,7 +79,7 @@ Get the public key from the private key.
 | Name | Type | Default value | Description |
 | :------ | :------ | :------ | :------ |
 | `privateKey` | `Uint8Array` | `undefined` | The private key. |
-| `withZeroByte` | `boolean` | true | Include a zero bute prefix. |
+| `withZeroByte` | `boolean` | `true` | Include a zero bute prefix. |
 
 #### Returns
 

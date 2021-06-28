@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/INodeInfo](../modules/models_inodeinfo.md) / INodeInfo
+[@iota/iota.js](../README.md) / [models/INodeInfo](../modules/models_inodeinfo.md) / INodeInfo
 
 # Interface: INodeInfo
 

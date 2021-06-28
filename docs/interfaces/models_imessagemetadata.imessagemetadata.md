@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IMessageMetadata](../modules/models_imessagemetadata.md) / IMessageMetadata
+[@iota/iota.js](../README.md) / [models/IMessageMetadata](../modules/models_imessagemetadata.md) / IMessageMetadata
 
 # Interface: IMessageMetadata
 
@@ -24,7 +24,7 @@ Response from the metadata endpoint.
 
 ### conflictReason
 
-• `Optional` **conflictReason**: [ConflictReason](../enums/models_conflictreason.conflictreason.md)
+• `Optional` **conflictReason**: [`ConflictReason`](../enums/models_conflictreason.conflictreason.md)
 
 The conflict reason.
 
@@ -40,7 +40,7 @@ ___
 
 ### ledgerInclusionState
 
-• `Optional` **ledgerInclusionState**: [LedgerInclusionState](../modules/models_ledgerinclusionstate.md#ledgerinclusionstate)
+• `Optional` **ledgerInclusionState**: [`LedgerInclusionState`](../modules/models_ledgerinclusionstate.md#ledgerinclusionstate)
 
 The ledger inclusion state.
 

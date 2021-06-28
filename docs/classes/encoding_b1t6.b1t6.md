@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [encoding/b1t6](../modules/encoding_b1t6.md) / B1T6
+[@iota/iota.js](../README.md) / [encoding/b1t6](../modules/encoding_b1t6.md) / B1T6
 
 # Class: B1T6
 

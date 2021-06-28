@@ -1,14 +1,14 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload";
-import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput";
-import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput";
-import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence";
-import { UTXO_INPUT_TYPE } from "../models/IUTXOInput";
-import { ARRAY_LENGTH, SMALL_TYPE_LENGTH, UINT32_SIZE } from "./common";
-import { deserializeInputs, serializeInputs } from "./input";
-import { deserializeOutputs, serializeOutputs } from "./output";
-import { deserializePayload, serializePayload } from "./payload";
+import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload.mjs";
+import { SIG_LOCKED_DUST_ALLOWANCE_OUTPUT_TYPE } from "../models/ISigLockedDustAllowanceOutput.mjs";
+import { SIG_LOCKED_SINGLE_OUTPUT_TYPE } from "../models/ISigLockedSingleOutput.mjs";
+import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence.mjs";
+import { UTXO_INPUT_TYPE } from "../models/IUTXOInput.mjs";
+import { ARRAY_LENGTH, SMALL_TYPE_LENGTH, UINT32_SIZE } from "./common.mjs";
+import { deserializeInputs, serializeInputs } from "./input.mjs";
+import { deserializeOutputs, serializeOutputs } from "./output.mjs";
+import { deserializePayload, serializePayload } from "./payload.mjs";
 /**
  * The minimum length of a transaction essence binary representation.
  */

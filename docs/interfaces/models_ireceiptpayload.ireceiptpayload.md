@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IReceiptPayload](../modules/models_ireceiptpayload.md) / IReceiptPayload
+[@iota/iota.js](../README.md) / [models/IReceiptPayload](../modules/models_ireceiptpayload.md) / IReceiptPayload
 
 # Interface: IReceiptPayload
 
@@ -8,9 +8,9 @@ Receipt payload.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``3``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``3``\>
 
-  ↳ **IReceiptPayload**
+  ↳ **`IReceiptPayload`**
 
 ## Table of contents
 
@@ -34,7 +34,7 @@ ___
 
 ### funds
 
-• **funds**: [IMigratedFunds](models_imigratedfunds.imigratedfunds.md)[]
+• **funds**: [`IMigratedFunds`](models_imigratedfunds.imigratedfunds.md)[]
 
 The index data.
 
@@ -50,7 +50,7 @@ ___
 
 ### transaction
 
-• **transaction**: [ITreasuryTransactionPayload](models_itreasurytransactionpayload.itreasurytransactionpayload.md)
+• **transaction**: [`ITreasuryTransactionPayload`](models_itreasurytransactionpayload.itreasurytransactionpayload.md)
 
 The TreasuryTransaction used to fund the funds.
 

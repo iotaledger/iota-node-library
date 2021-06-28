@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [utils/powHelper](../modules/utils_powhelper.md) / PowHelper
+[@iota/iota.js](../README.md) / [utils/powHelper](../modules/utils_powhelper.md) / PowHelper
 
 # Class: PowHelper
 
@@ -34,7 +34,7 @@ Helper methods for POW.
 
 ### LN3
 
-▪ `Static` `Readonly` **LN3**: `number` = 1.098612288668109691395245236922525704647490557822749451734694333
+▪ `Static` `Readonly` **LN3**: `number` = `1.098612288668109691395245236922525704647490557822749451734694333`
 
 LN3 Const see https://oeis.org/A002391.
 

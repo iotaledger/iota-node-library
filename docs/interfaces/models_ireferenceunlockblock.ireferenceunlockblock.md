@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / [models/IReferenceUnlockBlock](../modules/models_ireferenceunlockblock.md) / IReferenceUnlockBlock
+[@iota/iota.js](../README.md) / [models/IReferenceUnlockBlock](../modules/models_ireferenceunlockblock.md) / IReferenceUnlockBlock
 
 # Interface: IReferenceUnlockBlock
 
@@ -8,9 +8,9 @@ Reference unlock block.
 
 ## Hierarchy
 
-- [ITypeBase](models_itypebase.itypebase.md)<``1``\>
+- [`ITypeBase`](models_itypebase.itypebase.md)<``1``\>
 
-  ↳ **IReferenceUnlockBlock**
+  ↳ **`IReferenceUnlockBlock`**
 
 ## Table of contents
 

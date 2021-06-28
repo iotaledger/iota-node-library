@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / utils/randomHelper
+[@iota/iota.js](../README.md) / utils/randomHelper
 
 # Module: utils/randomHelper
 

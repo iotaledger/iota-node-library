@@ -1,4 +1,4 @@
-import { getUnspentAddresses } from "./getUnspentAddresses";
+import { getUnspentAddresses } from "./getUnspentAddresses.mjs";
 /**
  * Get the balance for a list of addresses.
  * @param client The client or node endpoint to send the transfer with.

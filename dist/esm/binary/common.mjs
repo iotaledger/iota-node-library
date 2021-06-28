@@ -1,6 +1,6 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Blake2b } from "../crypto/blake2b";
+import { Blake2b } from "../crypto/blake2b.mjs";
 /**
  * Byte length for a byte field.
  */

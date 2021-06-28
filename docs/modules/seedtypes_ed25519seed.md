@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / seedTypes/ed25519Seed
+[@iota/iota.js](../README.md) / seedTypes/ed25519Seed
 
 # Module: seedTypes/ed25519Seed
 
@@ -16,6 +16,6 @@
 
 ### ED25519\_SEED\_TYPE
 
-• `Const` **ED25519\_SEED\_TYPE**: `number` = 1
+• `Const` **ED25519\_SEED\_TYPE**: `number` = `1`
 
 The global type for the seed.

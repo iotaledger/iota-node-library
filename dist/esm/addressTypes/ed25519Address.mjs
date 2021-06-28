@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Blake2b } from "../crypto/blake2b";
-import { ArrayHelper } from "../utils/arrayHelper";
+import { Blake2b } from "../crypto/blake2b.mjs";
+import { ArrayHelper } from "../utils/arrayHelper.mjs";
 /**
  * Class to help with Ed25519 Signature scheme.
  */

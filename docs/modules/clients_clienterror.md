@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / clients/clientError
+[@iota/iota.js](../README.md) / clients/clientError
 
 # Module: clients/clientError
 

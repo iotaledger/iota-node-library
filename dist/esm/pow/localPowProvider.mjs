@@ -1,7 +1,7 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Blake2b } from "../crypto/blake2b";
-import { PowHelper } from "../utils/powHelper";
+import { Blake2b } from "../crypto/blake2b.mjs";
+import { PowHelper } from "../utils/powHelper.mjs";
 /**
  * Local POW Provider.
  * WARNING - This is really slow.

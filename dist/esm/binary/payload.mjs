@@ -1,19 +1,19 @@
 // Copyright 2020 IOTA Stiftung
 // SPDX-License-Identifier: Apache-2.0
-import { Ed25519 } from "../crypto/ed25519";
-import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload";
-import { MILESTONE_PAYLOAD_TYPE } from "../models/IMilestonePayload";
-import { RECEIPT_PAYLOAD_TYPE } from "../models/IReceiptPayload";
-import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence";
-import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload";
-import { TREASURY_TRANSACTION_PAYLOAD_TYPE } from "../models/ITreasuryTransactionPayload";
-import { BYTE_SIZE, MERKLE_PROOF_LENGTH, MESSAGE_ID_LENGTH, STRING_LENGTH, TYPE_LENGTH, UINT16_SIZE, UINT32_SIZE, UINT64_SIZE } from "./common";
-import { deserializeFunds, MIN_MIGRATED_FUNDS_LENGTH, serializeFunds } from "./funds";
-import { deserializeTreasuryInput, MIN_TREASURY_INPUT_LENGTH, serializeTreasuryInput } from "./input";
-import { MAX_NUMBER_PARENTS, MIN_NUMBER_PARENTS } from "./message";
-import { deserializeTreasuryOutput, MIN_TREASURY_OUTPUT_LENGTH, serializeTreasuryOutput } from "./output";
-import { deserializeTransactionEssence, serializeTransactionEssence } from "./transaction";
-import { deserializeUnlockBlocks, serializeUnlockBlocks } from "./unlockBlock";
+import { Ed25519 } from "../crypto/ed25519.mjs";
+import { INDEXATION_PAYLOAD_TYPE } from "../models/IIndexationPayload.mjs";
+import { MILESTONE_PAYLOAD_TYPE } from "../models/IMilestonePayload.mjs";
+import { RECEIPT_PAYLOAD_TYPE } from "../models/IReceiptPayload.mjs";
+import { TRANSACTION_ESSENCE_TYPE } from "../models/ITransactionEssence.mjs";
+import { TRANSACTION_PAYLOAD_TYPE } from "../models/ITransactionPayload.mjs";
+import { TREASURY_TRANSACTION_PAYLOAD_TYPE } from "../models/ITreasuryTransactionPayload.mjs";
+import { BYTE_SIZE, MERKLE_PROOF_LENGTH, MESSAGE_ID_LENGTH, STRING_LENGTH, TYPE_LENGTH, UINT16_SIZE, UINT32_SIZE, UINT64_SIZE } from "./common.mjs";
+import { deserializeFunds, MIN_MIGRATED_FUNDS_LENGTH, serializeFunds } from "./funds.mjs";
+import { deserializeTreasuryInput, MIN_TREASURY_INPUT_LENGTH, serializeTreasuryInput } from "./input.mjs";
+import { MAX_NUMBER_PARENTS, MIN_NUMBER_PARENTS } from "./message.mjs";
+import { deserializeTreasuryOutput, MIN_TREASURY_OUTPUT_LENGTH, serializeTreasuryOutput } from "./output.mjs";
+import { deserializeTransactionEssence, serializeTransactionEssence } from "./transaction.mjs";
+import { deserializeUnlockBlocks, serializeUnlockBlocks } from "./unlockBlock.mjs";
 /**
  * The minimum length of a payload binary representation.
  */

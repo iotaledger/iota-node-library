@@ -1,4 +1,4 @@
-[@iota/iota.js](../README.md) / [Exports](../modules.md) / highLevel/addresses
+[@iota/iota.js](../README.md) / highLevel/addresses
 
 # Module: highLevel/addresses
 
@@ -21,7 +21,7 @@ Generate addresses based on the account indexing style.
 
 | Name | Type | Description |
 | :------ | :------ | :------ |
-| `generatorState` | [IBip44GeneratorState](../interfaces/models_ibip44generatorstate.ibip44generatorstate.md) | The address state. |
+| `generatorState` | [`IBip44GeneratorState`](../interfaces/models_ibip44generatorstate.ibip44generatorstate.md) | The address state. |
 | `isFirst` | `boolean` | Is this the first address we are generating. |
 
 #### Returns
@@ -34,7 +34,7 @@ ___
 
 ### generateBip44Path
 
-▸ **generateBip44Path**(`accountIndex`, `addressIndex`, `isInternal`): [Bip32Path](../classes/crypto_bip32path.bip32path.md)
+▸ **generateBip44Path**(`accountIndex`, `addressIndex`, `isInternal`): [`Bip32Path`](../classes/crypto_bip32path.bip32path.md)
 
 Generate a bip44 path based on all its parts.
 
@@ -48,6 +48,6 @@ Generate a bip44 path based on all its parts.
 
 #### Returns
 
-[Bip32Path](../classes/crypto_bip32path.bip32path.md)
+[`Bip32Path`](../classes/crypto_bip32path.bip32path.md)
 
 The generated address.
