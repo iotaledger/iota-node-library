@@ -69,6 +69,6 @@
         "wasm/build/release.wasm"
     ],
     "dependencies": {
-        "@iota/iota.js": "^1.5.6"
+        "@iota/iota.js": "file:../.."
     }
 }
