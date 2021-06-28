@@ -71,8 +71,6 @@
         "typescript": "^4.3.4"
     },
     "main": "dist/cjs/index.node.js",
-    "browser": "dist/cjs/index.browser.js",
-    "module": "dist/esm/index.node.mjs",
     "exports": {
         ".": {
             "node": {
