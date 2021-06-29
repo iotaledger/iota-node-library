@@ -18,8 +18,11 @@ async function processDir(dir) {
 
             let content = await fs.readFile(fullEntry, "utf-8");
             if (!content.includes(".mjs")) {
-                content = content.replace(/import(.*)\"\.(.*)\";/g, "import$1\"\.$2.mjs\";");
-                content = content.replace(/export(.*)\"\.(.*)\";/g, "export$1\"\.$2.mjs\";");
+                content = content.replace(/import(.*)\"\.(.*)\";/g, 'import$1".$2.mjs";');
+                content = content.replace(/export(.*)\"\.(.*)\";/g, 'export$1".$2.mjs";');
+
+                const sourceMapUrlRegexp = new RegExp("//# sourceMappingURL=data:application/json;base64,(.*)");
+                content = content.replace(sourceMapUrlRegexp, "");
                 await fs.writeFile(fullEntry, content, "utf-8");
             }
 
@@ -27,7 +30,6 @@ async function processDir(dir) {
                 const newName = fullEntry.replace(/\.js$/, ".mjs");
                 await fs.rename(fullEntry, newName);
             }
-
         } else if (stat.isDirectory()) {
             console.log("Processing Dir", fullEntry);
             await processDir(fullEntry);
@@ -38,10 +40,13 @@ async function processDir(dir) {
 console.error("ESM Modules");
 
 if (process.argv.length < 3) {
-    console.error("Error: Not enough commane line arguments.");
+    console.error("Error: Not enough command line arguments.");
     process.exit(1);
 }
 
 run(process.argv[2])
     .then(() => console.log("Done"))
-    .catch((e) => console.error(e));
+    .catch(e => {
+        console.error(e)
+        process.exit(1);
+    });

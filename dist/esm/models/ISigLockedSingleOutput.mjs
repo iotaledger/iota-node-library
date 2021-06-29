@@ -2,4 +2,3 @@
  * The global type for the sig locked single output.
  */
 export const SIG_LOCKED_SINGLE_OUTPUT_TYPE = 0;
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiSVNpZ0xvY2tlZFNpbmdsZU91dHB1dC5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbIi4uLy4uL3NyYy9tb2RlbHMvSVNpZ0xvY2tlZFNpbmdsZU91dHB1dC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFLQTs7R0FFRztBQUNILE1BQU0sQ0FBQyxNQUFNLDZCQUE2QixHQUFHLENBQUMsQ0FBQyJ9
